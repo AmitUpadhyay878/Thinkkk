@@ -1,0 +1,951 @@
+// Admin css Nemi Sanghvi
+.admin-t {
+  overflow-x: hidden;
+  background-color: rgb(8 168 124 / 6%);
+  height: 100vh;
+  .adminpanel-wholebox {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+  }
+  .navigation {
+    position: fixed;
+    top: 0;
+    width: 300px;
+    height: 100%;
+    background-color: grey;
+    border-left: 0px solid rgba(8, 168, 124, 0.15);
+    background: white;
+    transition: all 0.3s ease;
+    overflow: hidden;
+    box-shadow: 0px 0px 4px 4px #0000000c;
+    z-index: 200;
+  }
+  .admincontent-box {
+    position: absolute;
+    top: 0;
+    width: calc(100% - 300px);
+    left: 300px;
+    min-height: 100vh;
+    background-color: rgba(8, 168, 124, 0.15);
+    transition: all 0.3s ease;
+    padding: 0px 0px;
+  }
+  .top-bar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+  }
+  .sidebar {
+    padding-top: 30px;
+    li {
+      width: 100%;
+      a {
+        text-decoration: none;
+        background-color: transparent;
+        padding: 20px 15px;
+        width: 100%;
+        display: block;
+        // border-top-left-radius: 30px;
+        // border-bottom-left-radius: 30px;
+        transition: all 0.3s ease;
+        color: black;
+        border: 2px solid transparent;
+        display: flex;
+        justify-content: flex-start;
+        align-items: center;
+        line-height: 1;
+        white-space: nowrap;
+        border-left: 4px solid transparent;
+        span {
+          padding-right: 20px;
+          svg {
+            width: 25px;
+            height: 25px;
+          }
+        }
+        &:hover,
+        &.active {
+          background-color: rgba(8, 168, 124, 0.15);
+          border-left: 4px solid #009688;
+        }
+      }
+    }
+  }
+  .topbar-header {
+    background-color: white;
+    padding: 15px 30px;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    z-index: 200;
+    box-shadow: 0px 0px 4px 4px #0000000d;
+  }
+  .statistics-wholebox {
+    padding: 0px 20px;
+    padding-bottom: 30px;
+    display: flex;
+    justify-content: flex-start;
+    flex-wrap: wrap;
+    .statistics-card {
+      background-color: #ffffff;
+      box-shadow: 7px 5px 81px rgb(0 0 0 / 2%);
+      border-radius: 5px;
+      border: 1px solid #eee;
+      position: relative;
+      opacity: 1;
+      padding: 16px;
+      margin: 10px;
+      display: inline-block;
+      width: 47%;
+      height: fit-content;
+      .statistics-body {
+        .thought-imageno-box {
+          display: flex;
+          justify-content: flex-start;
+          align-items: center;
+          margin-bottom: 20px;
+          .thought-no {
+            font-weight: 600;
+            font-size: 22px;
+            line-height: 20px;
+            color: #000000;
+          }
+          .thought-image {
+            width: 50px;
+            height: 50px;
+            background: rgba(8, 168, 124, 0.15);
+            border-radius: 5px;
+            border: none;
+            margin-right: 30px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+          }
+        }
+        p {
+          font-size: 18px;
+          text-transform: capitalize;
+        }
+      }
+    }
+  }
+  .toggle {
+    position: absolute;
+    left: 0;
+    opacity: 0;
+    visibility: hidden;
+  }
+  .user {
+    margin-left: auto;
+  }
+
+  .navigation.active {
+    width: 73px;
+    box-shadow: none;
+  }
+  .admincontent-box.active {
+    width: calc(100% - 75px);
+    left: 80px;
+  }
+
+  .dashboard-page {
+    .card {
+      > .card-body {
+      }
+    }
+  }
+  .user {
+    .dropdown {
+      .dropdown-toggle {
+        border: none;
+        background-color: rgba(8, 168, 124, 0.15);
+        color: white;
+        text-transform: initial;
+        display: flex;
+        justify-content: flex-start;
+        align-items: center;
+        padding: 5px 17px;
+        color: black;
+        display: flex;
+        justify-content: flex-start;
+        align-items: center;
+        &::after {
+          margin-left: 1.255em;
+        }
+        .avtar {
+          margin-right: 10px;
+          line-height: 1;
+
+          img {
+            width: 40px;
+            height: 40px;
+            background-color: white;
+            border-radius: 30px;
+            object-fit: cover;
+            object-position: top center;
+          }
+        }
+        .email {
+          // color: white;
+        }
+      }
+      .dropdown-menu {
+        padding: 0px 0px;
+        background: #ffffff;
+        box-shadow: 7px 31px 81px rgb(0 0 0 / 10%);
+        border: none;
+        width: 188px;
+        top: 60px; //Amit 02/12/2022
+        a {
+          padding: 20px 15px;
+          background-color: transparent;
+          text-transform: capitalize;
+          &:hover {
+            background-color: rgba(8, 168, 124, 0.15);
+          }
+        }
+      }
+    }
+  }
+
+  .header-box {
+    background-color: white;
+    padding: 25px 30px;
+    position: sticky;
+    left: 0;
+    right: 0;
+    top: 0;
+    z-index: 180;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  .action-graph {
+    padding-top: 30px;
+  }
+
+  .view-btn {
+    .common-btn {
+      height: 40px;
+      padding: 0px 20px;
+      width: auto;
+      font-size: 16px;
+      text-transform: capitalize;
+    }
+  }
+  .navigation.active .sidebar li a {
+    padding: 20px 15px;
+    line-height: 1;
+  }
+  .dashboard-page .card {
+    overflow-y: auto;
+    overflow-x: hidden;
+    height: 480px;
+    max-height: 600px;
+  }
+  table {
+    width: 100%;
+    overflow-x: scroll;
+    thead {
+      tr {
+        th {
+          text-transform: capitalize;
+        }
+      }
+    }
+  }
+  table tr,
+  table tr {
+    border-bottom: 1px solid #eee;
+  }
+  .card.user-edit {
+    margin-top: 20px;
+  }
+  // add delete
+  .save-btn {
+    .common-btn {
+      width: auto;
+      height: auto;
+      padding: 10px 18px;
+      margin-top: 10px;
+      margin: 20px 0px;
+      font-size: 14px;
+    }
+  }
+  .navlinks {
+    position: relative;
+    li {
+      display: inline-block;
+      padding-right: 40px;
+      text-transform: capitalize;
+      display: inline-block;
+      position: relative;
+      font-size: 16px;
+      font-weight: 500;
+      &:last-child {
+        color: #6c757d;
+      }
+      &:last-child::after {
+        border: none;
+        visibility: hidden;
+      }
+      &::after {
+        content: "";
+        position: absolute;
+        right: 16px;
+        /* right: 0; */
+        width: 6px;
+        height: 6px;
+        border: 1px solid #009688;
+        border-radius: 30px;
+        top: 6px;
+        background-color: #009688;
+      }
+    }
+  }
+  .uploadimage-box {
+    padding-top: 0px;
+    cursor: pointer;
+    h3 {
+      color: #000000;
+      margin-bottom: 20px;
+      font-weight: 400;
+      text-transform: capitalize;
+    }
+    .choose-image {
+      text-align: center;
+      margin: 10px 0px;
+      background: rgba(8, 168, 124, 0.05);
+      border: 1px dashed #08a87c;
+      border-radius: 5px;
+      width: 438px;
+      height: 188px;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      flex-direction: column;
+      margin-top: 10px;
+      margin: 0 auto;
+    }
+  }
+  .form-check.form-switch {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    .form-check-input {
+      margin-right: 10px;
+      //   background-color: #08a87c;
+      // border: 1px solid #08a87c;
+      width: 40px;
+      height: 20px;
+      &:checked {
+        background-color: #08a87c;
+        border: 1px solid #08a87c;
+      }
+    }
+    .form-check-label {
+      font-size: 16px;
+      position: relative;
+      top: 2px;
+    }
+  }
+  .account-body.card-body {
+    padding: 30px;
+    .account-content {
+      margin-bottom: 20px;
+      h3 {
+        margin-bottom: 10px;
+      }
+    }
+  }
+  .send-btn {
+    margin-top: 30px;
+  }
+  .createaccount-box.card {
+    background: #ffffff;
+    box-shadow: 0px 7px 23px rgb(0 0 0 / 5%);
+    border-radius: 10px;
+    border: none;
+  }
+  .account-area {
+    position: absolute;
+    left: 0;
+    right: 0;
+    top: 0;
+    height: 100vh;
+    padding: 80px 0px;
+    background-color: #08a87c14;
+  }
+
+  // Table css
+  .table {
+    thead tr th,
+    tbody tr td {
+      text-align: left;
+      // min-width: 220px;
+      white-space: nowrap;
+    }
+    tbody tr td {
+      position: relative;
+      vertical-align: middle;
+    }
+    thead tr {
+      background-color: rgb(8, 168, 125);
+      color: white;
+      position: sticky;
+      top: 0;
+      left: 0;
+      right: 0;
+      z-index: 100;
+    }
+    thead tr th,
+    tbody tr td {
+      padding: 15px 15px;
+    }
+    tbody tr td .thought-image {
+      padding-left: 0px;
+    }
+    .action-btn {
+      background-color: transparent;
+      border: none;
+      padding: 0px 0px;
+      margin-right: 16px;
+      span {
+        display: block;
+        padding: 0px 0px;
+        svg {
+          width: 22px;
+          height: 22px;
+        }
+      }
+    }
+    tbody tr td .thought-image img {
+      width: 80px;
+      height: 80px;
+      max-width: 80px;
+      max-height: 80px;
+      object-fit: cover;
+    }
+  }
+  // admin thought pagination
+  .thought-pagination {
+    position: sticky;
+    bottom: -75px;
+    left: 0;
+    right: 0;
+    border-radius: 0px;
+    margin: 0px 20px 20px;
+    .card-body {
+      padding: 18px 30px;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      background: rgba(255, 255, 255, 0.02);
+      border: 1px solid rgba(8, 168, 124, 0.2);
+      box-shadow: 7px 5px 81px rgba(0, 0, 0, 0.05);
+      border-radius: 0px;
+      .showing-pages {
+        p {
+          font-size: 14px;
+          font-weight: 500;
+        }
+      }
+      .itemperpage-box {
+        .dropdown {
+          display: flex;
+          justify-content: flex-start;
+          align-items: center;
+        }
+      }
+    }
+    .itemperpage-box {
+      .item-text {
+        font-size: 14px;
+        padding-right: 19px;
+        color: #666666;
+      }
+      .dropdown-toggle {
+        background-color: transparent;
+        font-size: 15px;
+        font-weight: 500;
+        color: #000000;
+        border-bottom: 1px solid #e7e7e7;
+        border-left: 0px;
+        border-right: 0px;
+        border-top: 0px;
+        border-radius: 0px;
+        background-color: rgb(231, 247, 242);
+      }
+    }
+    .dropdown-menu {
+      width: auto;
+      min-width: fit-content;
+      border-radius: 0px;
+      border: none;
+      background-color: rgb(231, 247, 242);
+      .dropdown-item {
+        width: auto;
+      }
+    }
+    .pagination-items {
+      background-color: transparent;
+      border: none;
+      .page-item {
+        border: none;
+        padding: 0px 6px;
+
+        .page-link {
+          border: none;
+          color: #666666;
+          font-weight: 500;
+          border-top: 2px solid transparent !important;
+          line-height: 1;
+          &:active,
+          &:focus {
+            // border-top: 2px solid #08a87c !important;
+            box-shadow: none;
+            outline: none;
+            background-color: transparent;
+          }
+        }
+      }
+    }
+    .active > .page-link,
+    .page-link.active,
+    .page-link:hover {
+      background-color: transparent;
+      color: #08a87c;
+    }
+    .page-item.active .page-link {
+      color: #08a87c;
+      border-top: 2px solid #08a87c !important;
+      border-radius: 0px;
+    }
+    .previous.page-item .page-link::after {
+      content: "Previous";
+    }
+
+    .next.page-item .page-link::after {
+      content: "Next";
+    }
+    .page-item .page-link span {
+      display: none;
+    }
+    .pagination-dot.page-item .page-link span {
+      display: block;
+    }
+    .page-item .page-link::after {
+      background: #e7f7f2;
+      border: 1px solid rgba(8, 168, 124, 0.2);
+      border-radius: 47px; 
+      font-size: 14px;
+      color: #08a87c;
+      padding: 8px 20px;
+    }
+    .previous.page-item .page-link,
+    .previous.page-item .page-link.active {
+      border-top: 1px solid white !important;
+    }
+  }
+
+  // my-account page
+  .myaccount-page {
+    .row {
+      padding: 0px 0px;
+      .col-lg-3 {
+        width: 20%;
+      }
+      .col-lg-9 {
+        width: 80%;
+      }
+    }
+    .myaccount-sidebar {
+      padding-top: 60px;
+      background-color: #0096870c;
+      height: 100vh;
+      position: fixed;
+      top: 68px;
+      width: 310px;
+    }
+  }
+  // settings page
+  .settings-page {
+    .setiing-tabs {
+      border-bottom: 1px solid #eee;
+      .nav-item {
+        .nav-link {
+          border: none;
+          border-radius: 0px;
+          border-bottom: 2px solid transparent;
+          padding: 20px 36px;
+          font-size: 16px;
+          line-height: 20px;
+          font-weight: 600;
+          color: #666666;
+          background-color: transparent;
+          &.active {
+            border-bottom: 2px solid #08a87c;
+            border-radius: 4px 4px 0px 0px;
+            color: #08a87c;
+          }
+        }
+      }
+    }
+    .tab-content {
+      padding: 40px 36px;
+      position: relative;
+    }
+    .row {
+      margin: 0px -20px;
+      .col-12 {
+        padding: 0px 20px;
+      }
+    }
+    .save-btn {
+      margin-top: 16px;
+      .common-btn {
+        width: 110px;
+        height: 40px;
+      }
+    }
+  }
+  // editor page
+  .savebtn {
+    position: absolute;
+    top: -9px;
+    right: 74px;
+    .common-btn {
+      width: auto;
+      height: auto;
+      padding: 10px 20px;
+    }
+  }
+  .no-user p {
+    text-align: center;
+    font-size: 20px;
+    padding: 40px 0px;
+    color: grey;
+  }
+
+  // my-account page
+  .myaccount-page {
+    .row {
+      padding: 0px 0px;
+      .col-lg-3 {
+        width: 20%;
+      }
+      .col-lg-9 {
+        width: 80%;
+      }
+    }
+    .myaccount-sidebar {
+      padding-top: 0px;
+      background-color: white;
+      height: 100vh;
+      position: fixed;
+      top: 130px;
+      width: 310px;
+    }
+  }
+  // recent thought table target
+  .recent-thoughts {
+    .table {
+      display: inline-table !important;
+    }
+    .table thead tr th,
+    .table tbody tr td {
+      // max-width: 300px;
+    }
+  }
+  // my account page
+  .content-page {
+    .profile-image {
+      margin: 40px 0px;
+      position: relative;
+      display: inline-block;
+      img {
+        width: 140px;
+        height: 140px;
+        border-radius: 50%;
+        object-fit: contain;
+      }
+      .edit-icon{
+        position: absolute;
+        bottom: 0;
+        right: 13px;
+        img{
+          width: 30px;
+          height: 30px;
+        }
+      }
+    }
+  }
+  .sidebar.mobile {
+    display: none;
+  }
+  .topbar-header .think-logo {
+    z-index: 300;
+  }
+  .think-logo {
+    padding: 10px 0px;
+    svg {
+      width: 60%;
+      margin: 0 auto;
+    }
+  }
+  .think-logo.topbar-desktop {
+    display: none;
+  }
+  .searchbar .icontrol {
+    box-shadow: 0px 0px 4px 4px #0000000e;
+  }
+  //create thought
+  .preview-image {
+    position: relative;
+    > img {
+      width: 100%;
+      height: 300px;
+      object-fit: cover;
+    }
+    .close-icon {
+      position: absolute;
+      top: -8px;
+      right: -9px;
+      border: 1px solid white;
+      width: 30px;
+      height: 30px;
+      background-color: white;
+      border-radius: 30px;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      box-shadow: 0px 0px 4px 4px #00000017;
+    }
+  }
+  .content {
+    p {
+      font-size: 16px;
+      margin-bottom: 5px;
+      span {
+        color: #08a87c;
+      }
+    }
+    h5 {
+      font-size: 12px;
+    }
+  }
+}
+
+// Bin modal without target
+.modal-dialog {
+  .modal-body {
+    padding: 50px;
+    height: 363px;
+  }
+  .detelemodal-box {
+    text-align: center;
+    .delete-image {
+      margin-bottom: 27px;
+    }
+    h4 {
+      color: black;
+      font-size: 18px;
+      line-height: 24.5px;
+      font-weight: 500;
+      margin-bottom: 22px;
+    }
+  }
+  .dismiss-modal {
+    .common-btn {
+      width: 107px;
+      height: 40px;
+      padding: 0px 0px;
+      margin: 0px 8px;
+      font-size: 16px;
+      &.no {
+        background-color: #e3e3e3;
+        color: #666666;
+        border: none;
+        &:hover {
+          background-color: #666666;
+          color: white;
+        }
+      }
+    }
+  }
+}
+
+// forgot password page
+.forgot-passwordpage {
+  .account-area {
+    padding: 66px 0px 60px;
+    background: linear-gradient(
+      0deg,
+      rgba(34, 193, 195, 0) 0%,
+      rgba(84, 189, 149, 0.1) 45%
+    );
+    .vector-image {
+      text-align: left;
+    }
+    .createaccount-box {
+      background: #ffffff;
+      box-shadow: 0px 7px 23px rgba(0, 0, 0, 0.05);
+      border-radius: 10px;
+      border: none;
+      hr {
+        border: 1px solid #dcdcdc;
+      }
+      .account-logo {
+        padding: 24px;
+      }
+      .account-body {
+        padding: 35px 62px;
+
+        .account-formbox {
+          .form-checkbox {
+            .form-check-input {
+              width: 19px;
+              height: 19px;
+              border-radius: 0px;
+            }
+            .form-check-label {
+              margin-left: 10px;
+              p {
+                font-weight: 400;
+                font-size: 12px;
+                line-height: 20px;
+                color: #444444;
+                span {
+                  color: #0878ff;
+                  cursor: pointer;
+                  text-decoration: underline;
+                }
+              }
+            }
+          }
+          .send-btn {
+            margin-top: 20px;
+            a {
+              text-decoration: none;
+            }
+            .common-btn {
+              width: 411px !important;
+              height: 55px;
+            }
+          }
+          .account-label {
+            p {
+              font-size: 16px;
+              color: #666666;
+              span {
+                color: #08a87c;
+                cursor: pointer;
+                text-decoration: underline;
+              }
+            }
+          }
+        }
+      }
+      .account-content {
+        margin-bottom: 47px;
+        h3 {
+          font-size: 32px;
+          line-height: 38px;
+          color: #151f2a;
+          margin-bottom: 11px;
+          font-weight: bold;
+        }
+        p {
+          color: #666666;
+          line-height: 20px;
+          font-size: 16px;
+        }
+      }
+      .forgot-passowrd {
+        font-size: 14px;
+        color: rgba(0, 0, 0, 0.6);
+        cursor: pointer;
+        text-decoration: none;
+      }
+    }
+  }
+  .eye-icon {
+    position: absolute;
+    top: 34px;
+    right: 0;
+    height: 48px;
+    background-color: #f9f9f9;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 0px 12px;
+    overflow: hidden;
+  }
+  .form-box {
+    margin-bottom: 23px !important;
+    position: relative;
+  }
+  // forgot-pasword
+  .account-area .createaccount-box .account-content {
+    margin: 42px 0px 26px;
+  }
+  .back-arrow {
+    position: absolute;
+    top: 29px;
+    left: 30px;
+    cursor: pointer;
+  }
+  .account-area .createaccount-box .account-content p {
+    line-height: 23px;
+    margin-bottom: 0px;
+  }
+  .account-area .createaccount-box .account-body p {
+    font-size: 16px;
+    line-height: 26px;
+    margin-bottom: 24px;
+    color: black;
+  }
+
+  .mainhome-page {
+    .ourvalues-area .values-whole-box .value-part .value-box .value-text p {
+      display: none;
+    }
+  }
+  .submit-btn span {
+    margin: 0px;
+  }
+}
+// change password
+.admin-t .change-passwordbox {
+  margin-top: 40px;
+}
+.admin-t .table tbody tr td,
+.admin-t .table tbody tr td p {
+  white-space: inherit;
+  line-height: 23px;
+  font-size: 15px;
+}
+
+.admin-t .table tbody tr td p {
+  display: -webkit-box;
+  max-width: 100%;
+  height: 109.2px;
+  -webkit-line-clamp: 3;
+  -webkit-box-orient: vertical;
+  overflow-y: hidden;
+  text-overflow: ellipsis;
+  height: 73px;
+  max-width: 220px;
+  width: 220px;
+}
+// Table css
+.admin-t .recent-thoughts .table tbody tr td {
+  max-width: 100px;
+}
+// // Table css
+// .admin-t .recent-thoughts .table tbody tr td{
+// max-width: 100px;
+// }

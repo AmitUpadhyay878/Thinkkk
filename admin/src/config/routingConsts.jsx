@@ -1,0 +1,14 @@
+export const home = "/"
+export const signin = "/signin"
+export const forgotpassword = '/forgotpassword'
+export const resetpassword = '/resetpassword'
+export const usermanagement = '/usermanagement'
+export const thoughtmanagement = '/thoughtmanagement'
+export const transactionmanagement = '/transactionmanagement'
+export const useraddedit = '/usermanagement/useraddedit'
+export const thoughtaddedit = '/thoughtmanagement/thoughtaddedit'
+export const setting = '/setting'
+export const myaccount= '/myacccount'
+export const editprofile = '/dashboard/myaccount/editprofile'
+export const changepassword='/dashboard/myaccount/changepassword'
+export const pageNotFound = "*";

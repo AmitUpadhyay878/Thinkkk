@@ -1,0 +1,420 @@
+@media screen and (max-width: 1440px) {
+  .admin-t .navigation {
+    width: 260px;
+  }
+  .admin-t .sidebar li a {
+    padding: 15px 15px;
+    font-size: 15px;
+  }
+  .admin-t .sidebar li a span svg {
+    width: 22px;
+    height: 22px;
+  }
+  .admin-t .row .col-lg-10 {
+    flex: 0 0 auto;
+    width: 80.333333%;
+  }
+  .admin-t .statistics-wholebox .statistics-card {
+    width: 45%;
+  }
+  .admin-t .myaccount-page .myaccount-sidebar {
+    width: 225px;
+  }
+  .admin-t .table tbody tr td .thought-image img {
+    width: 80px;
+    height: 80px;
+  }
+  .admin-t .table thead tr th,
+  .admin-t .table tbody tr td {
+    min-width: 140px;
+  }
+  .admin-t .dashboard-page .card {
+    height: 355px;
+  }
+  .admin-t .recent-thoughts .table thead tr th,
+  .admin-t .recent-thoughts .table tbody tr td {
+    min-width: initial;
+  }
+  .admin-t .action-graph {
+    padding-top: 20px;
+  }
+  .editpf > .row > .col-lg-6 {
+    width: 100%;
+  }
+  .changep-box .row .col-lg-4 {
+    width: 50%;
+  }
+  .admin-t .account-area {
+    padding: 0px 0px;
+  }
+}
+@media screen and (max-width: 1300px) {
+  .admin-t .row .col-lg-10 {
+    width: 79%;
+  }
+  .admin-t .row .col-lg-2 {
+    width: 21%;
+  }
+  .admin-t
+    .statistics-wholebox
+    .statistics-card
+    .statistics-body
+    .thought-imageno-box
+    .thought-image {
+    width: 40px;
+    height: 40px;
+  }
+  .admin-t .statistics-wholebox .statistics-card {
+    width: 43%;
+  }
+  .admin-t .navigation {
+    border: 0px;
+  }
+  .admin-t .myaccount-page .row .col-lg-9 {
+    width: 78%;
+    margin-left: auto;
+  }
+}
+@media screen and (max-width: 1200px) {
+  .admin-t .navigation {
+    width: 225px;
+  }
+  .think-logo svg {
+    max-width: 75%;
+  }
+  .admin-t .sidebar li a {
+    padding: 15px 8px;
+  }
+  .admin-t .sidebar li a span svg {
+    width: 18px;
+    height: 18px;
+  }
+  .admin-t .sidebar li a span {
+    padding-right: 10px;
+  }
+  .admin-t .dashboard-page .row .col-lg-6 {
+    width: 100%;
+    margin-bottom: 20px;
+  }
+  .admin-t .dashboard-page .card {
+    height: auto;
+  }
+  .admin-t .statistics-wholebox .statistics-card {
+    width: 46%;
+  }
+  .admin-t .thought-pagination .card-body {
+    display: block;
+  }
+  .admin-t .itemperpage-box {
+    position: absolute;
+    top: 10px;
+    right: 20px;
+  }
+  .admin-t .pagination-items.pagination {
+    margin: 0 auto;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+  }
+  .admin-t .statistics-wholebox {
+    padding: 15px 15px;
+  }
+  .admin-t .header-box .title-text h2 {
+    font-size: 21px;
+  }
+  .admin-t .myaccount-page .row .col-lg-9 {
+    width: 74%;
+  }
+  .admin-t .content-page .profile-image img {
+    width: 100px;
+    height: 100px;
+  }
+  .admin-t .account-area {
+    padding: 60px 0px;
+  }
+}
+@media screen and (max-width: 1023px) {
+  .admin-t .sidebar.mobile {
+    display: block;
+  }
+  .admin-t .navigation {
+    width: auto;
+  }
+  .navigation.Desktop .sidebar {
+    display: none;
+  }
+  .admin-t .row .col-lg-10 {
+    width: 100%;
+  }
+  .admin-t .top-bar {
+    display: block;
+  }
+  .admin-t .topbar-header {
+    background-color: transparent;
+  }
+  .admin-t .topbar-header {
+    padding: 10px 20px;
+  }
+  .admin-t .think-logo {
+    display: block;
+    margin: 0px;
+    padding: 0px 0px;
+  }
+  .think-logo svg {
+    max-width: 100%;
+    display: block;
+  }
+  .admin-t .topbar-header .think-logo {
+    display: block;
+  }
+  .navigation.desktop {
+    display: none;
+  }
+  .admin-t .topbar-header {
+    position: relative;
+  }
+  .admin-content-page {
+    padding: 10px 0px !important;
+  }
+  .admin-t .navbar-collapse {
+    position: absolute;
+    left: 0;
+    right: 0;
+    top: 0px;
+    padding: 0px 0px;
+    height: 100vh;
+    padding-top: 90px;
+    transform: translate(-100%, 0%);
+    transition: all 0.3s ease;
+    background-color: white;
+  }
+  .admin-t .navbar-collapse.show {
+    transform: translate(0%, 0%);
+  }
+  .admin-t .sidebar li a span svg {
+    width: 22px;
+    height: 22px;
+  }
+  .admin-t .sidebar li a {
+    padding: 15px 20px;
+  }
+  .admin-t .sidebar li a span {
+    padding-right: 20px;
+  }
+  .admin-t .dropdown .dropdown-menu {
+    position: absolute;
+    left: 0;
+    width: 100%;
+    right: 0;
+  }
+  .admin-t .user {
+    padding-top: 20px;
+  }
+  .admin-t .navbar-toggler {
+    border: none;
+    box-shadow: none !important;
+    z-index: 100;
+  }
+  .admin-t .dropdown .dropdown-toggle {
+    width: auto;
+    background: transparent !important;
+    color: black;
+  }
+  .admin-t .dropdown .dropdown-toggle .email {
+    color: black !important;
+  }
+  .admin-t .user .dropdown .dropdown-menu {
+    width: 100%;
+  }
+  .admin-t .account-area {
+    padding: 0px 0px;
+  }
+  .vector-image p {
+    margin-top: 22px !important;
+  }
+  .admin-t .createaccount-box.card {
+    margin: 40px 0px 60px;
+  }
+  .admin-t .account-area{
+    position: relative;
+    height: auto;
+  }
+  .forgot-passwordpage .back-arrow{
+    top: 57px;
+    left: 16px;
+  }
+  .forgot-passwordpage .account-area .createaccount-box .account-body {
+    padding: 35px 25px;
+}
+.forgot-passwordpage .account-area .createaccount-box .account-body .account-formbox .send-btn .common-btn{
+width: 100% !important;
+}
+}
+@media screen and (max-width: 767px) {
+  .admin-t .sidebar {
+    padding-top: 20px;
+  }
+  .admin-t .myaccount-page .myaccount-sidebar {
+    position: relative;
+    top: 0;
+    width: auto;
+    height: auto;
+    padding: 0px;
+  }
+  .admin-t .myaccount-page .row .col-lg-3,
+  .admin-t .myaccount-page .row .col-lg-9 {
+    width: 100%;
+  }
+  .changep-box .row .col-lg-4 {
+    width: 100%;
+  }
+  // .admin-t .header-box {
+  //   display: block;
+  // }
+  .admin-t .searchbar {
+    padding-top: 20px;
+  }
+  .admin-t .header-box {
+    padding: 25px 15px;
+  }
+  .admin-t .title-text::after {
+    left: -16px;
+  }
+  .admin-t .header-box .title-text h2 {
+    font-size: 18px;
+  }
+  .admin-t .statistics-wholebox .statistics-card {
+    width: 45%;
+  }
+  .admin-t .view-btn {
+    padding-top: 0px;
+    text-align: end;
+  }
+  .admin-t .view-btn .common-btn {
+    font-size: 12px;
+    padding: 8px 10px;
+    height: auto;
+  }
+  
+  .admin-t .searchbar .icontrol {
+    min-width: 100% !important;
+    width: 100% !important;
+  }
+  .admin-t .thought-pagination .pagination-items .page-item .page-link {
+    padding: 0px 3px;
+  }
+  .admin-t .thought-pagination .card-body {
+    padding: 18px 10px;
+  }
+
+
+  .admin-t .thought-pagination .card-body .showing-pages p {
+    font-size: 12px;
+  }
+  .admin-t .dropdown .dropdown-menu {
+    width: auto;
+  }
+
+  .admin-t .uploadimage-box .choose-image{
+    width: 100%;
+  }
+  .title-text{
+    margin-bottom: 0px !important;
+  }
+  .mx-auto{
+    margin-top: 30px !important;
+  }
+  .forgot-passwordpage .account-area .createaccount-box .account-content h3{
+    font-size: 25px;
+  }
+  .forgot-passwordpage .back-arrow {
+    top: 50px;
+    left: 16px;
+} 
+.forgot-passwordpage .account-area .vector-image{
+  margin: 0px !important;
+}
+.forgot-passwordpage .account-area .createaccount-box{
+  margin-top: 40px;
+}
+.admin-t .statistics-wholebox {
+  padding: 1px 10px;
+}
+.admin-t .statistics-wholebox .statistics-card {
+  width: 100%;
+  margin: 10px 10px;
+}
+.admin-content-page {
+  padding: 10px 15px !important;
+  z-index: -1;
+}
+.admin-t .table tbody tr td .thought-image {
+  padding-left: 0px;
+}
+.admin-t .recent-thoughts .table tbody tr td span{
+  font-size: 13px;
+  margin-right: 20px;
+}
+.admin-t .table tbody tr td span {
+  font-size: 12px;
+}
+.content-page {
+  padding: 20px 0px !important;
+}
+.admin-t .header-box{
+  display: block;
+}
+
+
+
+}
+@media screen and (max-width: 479px) {
+  .admin-t .statistics-wholebox .statistics-card {
+    width: 100%;
+  }
+  .setiing-tabs li {
+    width: 100%;
+  }
+  .admin-t .settings-page .setiing-tabs .nav-item .nav-link {
+    width: 100%;
+  }
+  .admin-t .settings-page .tab-content {
+    padding: 41px 16px;
+    position: relative;
+  }
+  .admin-t .savebtn {
+    position: absolute;
+    top: -9px;
+    right: 20px;
+  }
+  .admin-t .savebtn .common-btn {
+    font-size: 15px;
+  }
+  .admin-t .table .action-btn span svg {
+    width: 18px;
+    height: 18px;
+  }
+  .admin-t .table tbody tr td .thought-image img {
+    width: 80px;
+    height: 80px;
+    max-width: inherit;
+}
+.admin-t .sidebar {
+  padding-top: 0px;
+}
+.myaccount-content .card .card-body {
+  padding: 40px 20px !important;
+}
+.admin-t .myaccount-page .title-text::after {
+  left: -20px;
+}
+.admin-t .myaccount-page .change-passwordbox {
+  margin-top: 40px;
+}
+
+}
+@media screen and (max-width: 320px) {
+
+}
