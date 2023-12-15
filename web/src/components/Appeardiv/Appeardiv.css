@@ -1,0 +1,54 @@
+.view {
+  --animationDelay:0ms;
+  --distance:0px;
+  opacity: 0;
+  visibility: hidden;
+  transition: all 700ms ease;
+  transition-delay: 0ms;
+}
+.view.in-view {
+  opacity: 1;
+  visibility: visible;
+  transition-delay: var(--animationDelay);
+}
+.view.up {
+  --distance:30px;
+  transform: translate(0, var(--distance));
+}
+.view.up.in-view {
+  transform: translate(0);
+}
+.view.down {
+  --distance:-30px;
+  transform: translate(0, var(--distance));
+}
+.view.down.in-view {
+  transform: translate(0);
+}
+.view.left {
+  --distance:-30px;
+  transform: translate(var(--distance), 0);
+}
+.view.left.in-view {
+  transform: translate(0);
+}
+.view.right {
+  --distance:30px;
+  transform: translate(var(--distance), 0);
+}
+.view.right.in-view {
+  transform: translate(0);
+}
+.view.fade {
+  transform: translate(var(--distance), 0);
+}
+.view.fade.in-view {
+  transform: translate(0);
+}
+.view.scale {
+  --distance:0.8;
+  transform: scale(var(--distance));
+}
+.view.scale.in-view {
+  transform: scale(1);
+}/*# sourceMappingURL=Appeardiv.css.map */

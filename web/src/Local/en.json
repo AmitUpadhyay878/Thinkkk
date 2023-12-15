@@ -1,0 +1,385 @@
+{
+    "Dashboard": "Dashboard",
+    "Thoughts": "Challenges",
+    "subscriptionPlan": "Subscription Plan",
+    "hellocard": "Create Amazing Challenges",
+    "helocardDesc": "Thinkkk application is used to show the different ideas associated with a particular concept. It is a useful tool for brainstorming. The concept is usually shown in the middle, while the different ideas are shown branching off in different directions.",
+    "helocardbtn": "Let's Start Challenges",
+    "recentcha": "Recent Challenge",
+    "ourstatus": "Statistics",
+    "heroBanner": [
+        {
+            "heading": "Create & Share <br /> Amazing <span></span>",
+            "desc": "Thinkkk application is used to show the different ideas associated with a particular concept. It is a useful tool for brainstorming. The concept is usually shown in the middle, while the different ideas are shown branching off in different directions.",
+            "btnText": "Let's Start Challenges",
+            "image": "/thinkkk-web/static/media/herobanner.ae7ab6bdc550e76d94d6.png"
+        }
+    ],
+    "about_Us": [
+        {
+            "img": "home_about",
+            "title": "About Us",
+            "subTitle": "What is The Todo <br/> Application For Ideas",
+            "desc": "<p>Thinkkk application is used to show the different ideas associated with a particular concept. It is a useful tool for brainstorming. The concept is usually shown in the middle, while the different ideas are shown branching off in different directions. So, what is todo application?</p><p>Todo application is the process of creating a thought and implementation. It involves brainstorming to document the different ideas associated with a concept, then placing those ideas onto the mind map itself.</p>",
+            "btnText": "Read More"
+        }
+    ],
+    "ourValues": [
+        {
+            "heading": "Our values",
+            "header": "What Benefits Can <br /> Be Obtained?",
+            "desc": "These benefits can make your work skills better and better. It improves your creativity, empowerment, work force and this complex makes it more simple.",
+            "btnText": "Contact Us"
+        }
+    ],
+
+    "ourWorkFlow": [
+        {
+            "mainHeading": "Our Workflow",
+            "subHeading": "How it Work",
+            "image": "",
+            "btnClickData": [
+                {
+                    "header5": "Sign Up to Thinkkk Application"
+                },
+                {
+                    "header5": "Create a New Challenges"
+                },
+                {
+                    "header5": "Manage Your Action Item"
+                },
+                {
+                    "header5": "Share The Challenges"
+                }
+            ]
+        }
+    ],
+    "commonCard": [
+        {
+            "title": "It’s free always has been, and always will be.",
+            "btnText": "Let's Start Challenges"
+        }
+    ],
+    "ourFeatures": [
+        {
+            "mainheading": "Our Feature",
+            "subHeading": " How to Manage <br /> Challenges Process",
+            "paraDec": " It is very simply steps to express the thought and creativity. You can manage your work well in this",
+            "btnText": "Let’s Start Challenges"
+        }
+    ],
+    "pricePlan": [
+        {
+            "mainheading": "Pricing",
+            "subHeading": "Choose The Best Plan For You",
+            "freePlanData": [
+                {
+                    "heading": "Free Plan",
+                    "monthData": " $0<span>/ Per Life</span>",
+                    "liData": [
+                        {
+                            "ldata": "One Challenge"
+                        },
+                        {
+                            "ldata": "5 Facts"
+                        },
+                        {
+                            "ldata": "20 Questions & Answers"
+                        },
+                        {
+                            "ldata": "20 Action Items"
+                        }
+                    ],
+                    "btnText": " Choose Plan"
+                }
+            ],
+            "yearPlanData": [
+                {
+                    "heading": " Yearly Plan",
+                    "yearData": " $25<span>/ Per Year</span>",
+                    "liData": [
+                        {
+                            "ldata": "Unlimited Challenges"
+                        },
+                        {
+                            "ldata": "Unlimited Facts"
+                        },
+                        {
+                            "ldata": "Unlimited Questions & Answers"
+                        },
+                        {
+                            "ldata": " Unlimited Action Items"
+                        }
+                    ],
+                    "btnText": " Choose Plan"
+                }
+            ]
+        }
+    ],
+    "successData": [
+        {
+            "mainHeading": "Success Stories",
+            "subHeading": "We Have Stories to Inspire You",
+            "cardData": [
+                {
+                    "name": "Mark Jonsan",
+                    "position": "CEO, Inproze",
+                    "des": " Here is a helpful product for me. With Toro application I explored the app Thoughts and I got growth in my work. Here is User Friendly Product to Manage Your Taskaccording to You."
+                }
+            ]
+        }
+    ],
+    "contactInfo": [
+        {
+            "mainheader": "Contact Us",
+            "subtitle": "Any Question or Remark. Just Write Us a Message"
+        }
+    ],
+    "footerData": [
+        {
+            "paraDes": "Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. Velit officia consequat duis enim velit mollit. Exercitation veniam consequat sunt nostrud amet.",
+            "linkhedaing": "Company Links",
+            "liList": [
+                {
+                    "li": "Home"
+                },
+                {
+                    "li": "About Us"
+                },
+                {
+                    "li": "Pricing"
+                },
+                {
+                    "li": "Contact Us"
+                }
+            ],
+            "contactDetail": "Contact Us",
+            "email": "Contact@gmail.com",
+            "phone": "(480) 555-0103",
+            "location": "2464 Royal Ln. Mesa, New Jersey 45463"
+        }
+    ],
+    "aboutUsCommonBaner": [
+        {
+            "maintitle": "About Us",
+            "subtitle": "Helping Our Companies Create Better Thinking for People",
+            "desc": "Thinkkk application is used to show the different ideas associated with a particular concept. It is a useful tool for brainstorming. The concept is usually shown in the middle, while the different ideas are shown branching off in different directions.",
+            "btntext": "Let's Start Challenges"
+        }
+    ],
+    "aboutUstab": [
+        {
+            "img": "main_about",
+            "title": "Introduce of Thinkkk",
+            "subTitle": "Who We Are",
+            "desc": "<p>Thinkkk application is used to show the different ideas associated with a particular concept. It is a useful tool for brainstorming. The concept is usually shown in the middle, while the different ideas are shown branching off in different directions. So, what is todo application?</p> <p>Todo application is the process of creating a thought and implementation. It involves brainstorming to document the different ideas associated with a concept, then placing those ideas onto the mind map itself.</p>"
+        }
+    ],
+    "our_mission": [
+        {
+            "img": "our_mission",
+            "title": "Our Mission",
+            "subTitle": "What We Do",
+            "desc": "<p>Thinkkk application is used to show the different ideas associated with a particular concept. It is a useful tool for brainstorming. The concept is usually shown in the middle, while the different ideas are shown branching off in different directions. So, what is todo application?</p> <p>Todo application is the process of creating a thought and implementation. It involves brainstorming to document the different ideas associated with a concept, then placing those ideas onto the mind map itself.</p>"
+        }
+    ],
+    "outcorevalue": [
+        {
+            "maintitle": "Out Core Value",
+            "subtitle": "Why Choose Thinkkk",
+            "cardData": [
+                {
+                    "image": "c1",
+                    "title": "Data Security",
+                    "desc": "We protect Your ideas,Thoughts data and do not share it with anyone."
+                },
+                {
+                    "image": "c2",
+                    "title": "Make Leaders",
+                    "desc": "We Will give you a opportunity to become a leader with your ideas."
+                },
+                {
+                    "image": "c3",
+                    "title": "Work Passionate",
+                    "desc": "You can do your work better way, and you will be able to focus our your work."
+                },
+                {
+                    "image": "c4",
+                    "title": "Increase Knowledge",
+                    "desc": "Our searching power would be increated for question and answer process related"
+                },
+                {
+                    "image": "c5",
+                    "title": "Regular Updates",
+                    "desc": "You will always be up to date with action Item feature and your work will go much faster."
+                },
+                {
+                    "image": "c6",
+                    "title": "Transparency",
+                    "desc": "We will take care of your data and work and will always be ahead to help you."
+                }
+            ]
+        }
+    ],
+    "homeOurValue": [
+        {
+            "cardData": [
+                {
+                    "image": "h1",
+                    "title": "Make Complex thighs Simple"
+                },
+                {
+                    "image": "h2",
+                    "title": "Be a Force For Good"
+                },
+                {
+                    "image": "h3",
+                    "title": "Boost Your Memory"
+                },
+                {
+                    "image": "h4",
+                    "title": "Spark Creativity"
+                },
+                {
+                    "image": "h5",
+                    "title": "Structure Information"
+                },
+                {
+                    "image": "h6",
+                    "title": "Empower Other"
+                }
+            ]
+        }
+    ],
+    "aboutUsFAQ": [
+        {
+            "title": "Ask Questions",
+            "subtitle": "Frequently Asked <br/> Questions",
+            "desc": "It is very simply steps to express the thought and <br/> creativity. You can manage your work well in this",
+            "btntext": "Contact Us",
+            "QandA": [
+                {
+                    "Que": "Can I Make Presentation in the Thinkkk?",
+                    "Ans": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Vel rerum delectus illum odio labore tempore aliquam exercitationem incidunt, dolorem, corporis nulla eveniet at provident non molestias quasi accusamus maxime eum."
+                },
+                {
+                    "Que": "How Do I Cancel My Subscription or Delete My Account?",
+                    "Ans": "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Ullam culpa dolorum magni, praesentium ipsa ea cupiditate facere id, facilis, voluptatem ratione provident voluptatum omnis sequi molestias est doloribus voluptatibus quis?"
+                },
+                {
+                    "Que": "Can Basic Users Collaborate With Paying Users?",
+                    "Ans": "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Ullam culpa dolorum magni, praesentium ipsa ea cupiditate facere id, facilis, voluptatem ratione provident voluptatum omnis sequi molestias est doloribus voluptatibus quis?"
+                },
+                {
+                    "Que": "How can I be sure that my designs are private?",
+                    "Ans": "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Ullam culpa dolorum magni, praesentium ipsa ea cupiditate facere id, facilis, voluptatem ratione provident voluptatum omnis sequi molestias est doloribus voluptatibus quis?"
+                },
+                {
+                    "Que": "Do I Need to Create a Team in Order to Collaborate with Others?",
+                    "Ans": "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Ullam culpa dolorum magni, praesentium ipsa ea cupiditate facere id, facilis, voluptatem ratione provident voluptatum omnis sequi molestias est doloribus voluptatibus quis?"
+                }
+            ]
+        }
+    ],
+    "priceFaq": [
+        {
+            "title": "Ask Questions",
+            "subtitle": "Frequently Asked <br/> Questions",
+            "desc": "It is very simply steps to express the thought and <br/> creativity. You can manage your work well in this",
+            "btntext": "Contact Us",
+            "QandA": [
+                {
+                    "Que": "Can I Make Presentation in the Thinkkk?",
+                    "Ans": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Vel rerum delectus illum odio labore tempore aliquam exercitationem incidunt, dolorem, corporis nulla eveniet at provident non molestias quasi accusamus maxime eum."
+                },
+                {
+                    "Que": "How Do I Cancel My Subscription or Delete My Account?",
+                    "Ans": "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Ullam culpa dolorum magni, praesentium ipsa ea cupiditate facere id, facilis, voluptatem ratione provident voluptatum omnis sequi molestias est doloribus voluptatibus quis?"
+                },
+                {
+                    "Que": "Can Basic Users Collaborate With Paying Users?",
+                    "Ans": "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Ullam culpa dolorum magni, praesentium ipsa ea cupiditate facere id, facilis, voluptatem ratione provident voluptatum omnis sequi molestias est doloribus voluptatibus quis?"
+                },
+                {
+                    "Que": "How can I be sure that my designs are private?",
+                    "Ans": "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Ullam culpa dolorum magni, praesentium ipsa ea cupiditate facere id, facilis, voluptatem ratione provident voluptatum omnis sequi molestias est doloribus voluptatibus quis?"
+                },
+                {
+                    "Que": "Do I Need to Create a Team in Order to Collaborate with Others?",
+                    "Ans": "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Ullam culpa dolorum magni, praesentium ipsa ea cupiditate facere id, facilis, voluptatem ratione provident voluptatum omnis sequi molestias est doloribus voluptatibus quis?"
+                }
+            ]
+        }
+    ],
+    "pricingCommonBanner": [
+        {
+            "maintitle": "Pricing",
+            "subtitle": "Grow Better With The Right Plan",
+            "desc": "start for free and add plans as you need them or explore our plans to get everythings you need at once.",
+            "btntext": "Let's Start Challenges"
+        }
+    ],
+    "pricingOurValues": [
+        {
+            "heading": "Plan Benefits",
+            "header": "What Benefits Can <br /> Be Membership?",
+            "desc": "These benefits can make your work skills better and better. It improves your creativity, empowerment, work force and this complex makes it more simple.",
+            "btnText": "Contact Us",
+            "cardData": [
+                {
+                    "image": "p1",
+                    "title": "Save Time and Hassle"
+                },
+                {
+                    "image": "p2",
+                    "title": "Upgrade Your Career"
+                },
+                {
+                    "image": "p3",
+                    "title": "Simplify Your Work Life"
+                },
+                {
+                    "image": "p4",
+                    "title": "Clean Work Mindset"
+                },
+                {
+                    "image": "p5",
+                    "title": "Trust Loyalty Provider"
+                },
+                {
+                    "image": "p6",
+                    "title": "Level Up Your Challenges"
+                }
+            ]
+        }
+    ],
+    "contactcommonbanner": [
+        {
+            "maintitle": "Contact Us",
+            "subtitle": "Have A query ? Let's talk.",
+            "desc": "Whether you need help using the tool, want more information about our plans or anything else – our support team would love to assist you.",
+            "btntext": "Let's Start Challenges"
+        }
+    ],
+    "contactcardList": [
+        {
+            "cardData": [
+                {
+                    "image": "f1",
+                    "title": "Email Address",
+                    "desc": "Contact@gmail.com"
+                },
+                {
+                    "image": "f2",
+                    "title": "Phone Number",
+                    "desc": "(480) 555-0103"
+                },
+                {
+                    "image": "f3",
+                    "title": "Address",
+                    "desc": "2464 Royal Ln. Mesa, New Jersey 45463"
+                }
+            ]
+        }
+    ]
+}

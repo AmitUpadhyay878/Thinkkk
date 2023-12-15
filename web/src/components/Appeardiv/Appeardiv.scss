@@ -1,0 +1,57 @@
+
+// scss By AMIT UPADHYAY
+.view {
+    --animationDelay:0ms;
+    --distance:0px;
+    
+
+    opacity: 0;visibility: hidden;
+    transition: all 700ms ease;
+    transition-delay: 0ms;
+    &.in-view {
+        opacity: 1;
+        visibility: visible;
+        transition-delay:var(--animationDelay);
+    }
+    &.up {
+        --distance:30px;
+        transform: translate(0,var(--distance));
+        &.in-view {
+            transform: translate(0);
+        }
+    }
+    &.down {
+        --distance:-30px;
+        transform: translate(0,var(--distance));
+        &.in-view {
+            transform: translate(0);
+        }
+    }
+    &.left {
+        --distance:-30px;
+        transform: translate(var(--distance),0);
+        &.in-view {
+            transform: translate(0);
+        }
+    }
+    &.right {
+        --distance:30px;
+        transform: translate(var(--distance),0);
+        &.in-view {
+            transform: translate(0);
+        }
+    }
+    &.fade {
+         transform: translate(var(--distance),0);
+        &.in-view {
+             transform: translate(0);
+        }
+    }
+    &.scale {
+        --distance:0.8;
+        transform: scale(var(--distance));
+        &.in-view {
+            transform: scale(1);
+        }
+    }
+}

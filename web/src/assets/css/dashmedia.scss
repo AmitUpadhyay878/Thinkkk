@@ -1,0 +1,1410 @@
+@media screen and (max-width: 1440px) {
+    .dash-t h2 {
+        font-size: 20px;
+    }
+    .dash-t .common-btn {
+        height: 40px !important;
+        font-size: 15px;
+    }
+    .dash-t .card-body {
+        padding: 25px 30px;
+    }
+    .dash-t .mainsidebar-content .row .col-lg-10 {
+        width: 80%;
+    }
+    .dash-t .mainsidebar-content .row .col-lg-2 {
+        width: 20%;
+    }
+    .dash-t .sidebar-area {
+        width: 250px;
+    }
+    .dash-t .sidebar-area .sidebar-menu li a {
+        padding: 20px 20px;
+    }
+
+    .dash-t .status-card .card-body {
+        padding: 20px 15px;
+    }
+
+    .dash-t .action-edit-box {
+        padding-left: 0px;
+    }
+    .dash-t .thought-main-box {
+        display: block;
+        flex-wrap: wrap;
+    }
+    .dash-t .action-edit-box {
+        display: flex;
+        margin-top: 10px;
+        justify-content: flex-start;
+        align-items: center;
+    }
+    .dash-t .thought-main-box .image-content-box .thought-content .action-box .action-btn {
+        font-size: 14px;
+        height: 32px;
+    }
+    .dash-t .action-edit-box .edit-btn {
+        width: auto;
+        border: none;
+    }
+
+    .dash-t .thought-main-box .image-content-box {
+        border: none;
+    }
+    .dash-t .header-area .page-title {
+        padding-left: 42px;
+    }
+    .dash-t .recentthought-page .thought-pagination .pagination-items .page-item {
+        padding: 0px 0px;
+    }
+    .dash-t .mainsidebar-content .side-pagecontent .thought-card .thought-cardbody .thought-box h5 {
+        margin-bottom: 20px;
+    }
+    .dash-t .status-card .card-body .total-actionbox .card .card-body .thought-imageno-box .thought-image {
+        width: 40px;
+        height: 40px;
+    }
+    .dash-t .createthoughtinner-page .date-card {
+        top: 28px;
+    }
+    .dash-t .thought-main-box .image-content-box .thought-content h4 {
+        margin-bottom: 10px;
+    }
+
+    .dash-t .createthoughtinner-page .image-content-box .thought-image img {
+        object-fit: cover;
+    }
+    .dash-t .recentthought-page .image-content-box .thought-image img {
+        // object-fit: contain;
+    }
+    .dash-t .thought-main-box .image-content-box {
+        align-items: flex-start;
+    }
+    .dash-t .recent-thoughtbox .image-content-box .thought-image img {
+        // object-fit: contain;
+    }
+    .dash-t .thought-main-box .image-content-box .thought-content .action-box .action-btn {
+        white-space: nowrap;
+    }
+    .dash-t .recentthought-page .thought-pagination {
+        margin: 0px 15px 20px;
+    }
+    //.recent-thoughtbox dashboard target
+    .dash-t .recent-thoughtbox .image-content-box .thought-image img {
+        width: 200px;
+    }
+    //  recentthought-page target
+    // .dash-t .recentthought-page .image-content-box .thought-image img {
+    //     width: auto;
+    // }
+    // createthoughtinner-page
+
+    .dash-t .status-card .card-body .total-actionbox .card .card-body .thought-no {
+        font-size: 20px;
+    }
+    .dash-t .status-card .card-body .total-actionbox .card .card-body p {
+        font-size: 15px;
+    }
+    .dash-t .status-card .card-body .total-actionbox .card .card-body .thought-imageno-box {
+        margin-bottom: 20px;
+    }
+    .dash-t .createthoughtinner-page .thought-actioncard .setiing-tabs .nav-item {
+        width: 25%;
+    }
+    .dash-t .createthoughtinner-page .thought-actioncard .setiing-tabs .nav-item .nav-link {
+        margin: 0px 0px;
+        width: 100%;
+        white-space: nowrap;
+        font-size: 15px;
+    }
+    .dash-t .createthoughtinner-page .visual-box .visual-image h2 {
+        font-size: 95px;
+    }
+    .dash-t .createthoughtinner-page .thought-actioncard .checkbox-editbox {
+        padding: 15px 20px;
+    }
+    .journal-contentbox .sidebar {
+        min-width: 295px;
+    }
+    .dash-t .sidebarcontent-wholebox .sidebar {
+        padding: 95px 0px;
+        max-width: 245px;
+    }
+    .dash-t .collapse-icon {
+        top: 20px;
+    }
+    .dash-t .sidebar .sidebar-menu li a {
+        height: 50px;
+        padding: 20px 30px;
+    }
+    .dash-t .sidebarcontent-wholebox .sidebar.active ul {
+        margin: 0px 6px;
+    }
+    .dash-t .sidebarcontent-wholebox .sidebar.active {
+        width: 62px;
+    }
+    .dash-t .common-btn {
+        padding: 0px 16px;
+        height: 40px !important;
+        font-size: 15px;
+        width: auto !important;
+    }
+    .dash-t .sidebarcontent-wholebox .myaccount-wholebox .sidebar {
+        padding: 20px 0px;
+        margin: 0px;
+        width: 100%;
+        max-width: 100%;
+    }
+    .dash-t {
+        .recent-thoughtbox {
+            .thought-main-box {
+                .image-content-box {
+                    .thought-image{
+                        flex-shrink: 0;
+                    }
+                }
+            }
+        }
+        .subscriptionplan-page{
+            .recent-thoughtbox {
+                .thought-pagination {
+                    margin: 0px 30px 30px;
+                }
+            }
+        }
+    }
+}
+@media screen and (max-width: 1300px) {
+    .dash-t .sidebar-area {
+        width: 255px;
+    }
+
+    .dash-t .mainsidebar-content .side-pagecontent .row .col-lg-7,
+    .dash-t .mainsidebar-content .side-pagecontent .row .col-lg-5 {
+        width: 100%;
+    }
+    .dash-t .subscriptionplan-page .billing-table thead tr th,
+    .dash-t .subscriptionplan-page .billing-table tbody tr td {
+        min-width: 190px;
+    }
+    .dash-t .createthought-page .upload-filebox {
+        width: auto;
+        padding: 50px;
+    }
+
+    // .dash-t .createthoughtinner-page .thought-main-box .image-content-box .thought-image {
+    //   width: 52%;
+    // }
+    .dash-t .thought-main-box .image-content-box .thought-content h4 {
+        margin-bottom: 10px;
+    }
+    .dash-t .recent-thoughtbox .thought-main-box .image-content-box .thought-content {
+        width: 100%;
+    }
+    .dash-t .recentthought-page .recent-thoughtbox .thought-main-box .image-content-box .thought-content {
+        width: 100%;
+    }
+    .dash-t .createthoughtinner-page .recent-thoughtbox .thought-main-box .image-content-box .thought-content {
+        width: 100%;
+    }
+    // .multiple-mainqabox .mul-quesbox {
+    //   padding-left: 0px;
+    // }
+
+    .dash-t .settings-page .row .col-12 {
+        padding: 0px 10px;
+    }
+    .dash-t .settings-page .row {
+        margin: 0px -10px;
+    }
+    .dash-t .mainsidebar-content .row .col-lg-10 {
+        width: 78%;
+    }
+    // 10th April
+
+    .dash-t .myaccount-page .editprofile-box .profile-image > img {
+        width: 100px;
+        height: 100px;
+    }
+    .dash-t .policy-content p {
+        font-size: 16px;
+        line-height: 25px;
+    }
+    .account-area .createaccount-box .account-content {
+        margin-bottom: 30px;
+    }
+    .account-area .createaccount-box .account-body .account-formbox .send-btn {
+        margin-top: 0px;
+    }
+    .form-box {
+        // margin-bottom: 35px !important;
+        position: relative;
+    }
+
+    .dash-t .sidebar .sidebar-menu li a {
+        padding: 20px 25px;
+        font-size: 14px;
+    }
+
+    .dash-t .status-card .card-body .total-actionbox .card .card-body .thought-imageno-box {
+        margin-bottom: 20px;
+    }
+    .dash-t .spartion .thought-card .thought-cardbody .thought-box h2 {
+        font-size: 20px;
+        line-height: 26px;
+    }
+    .dash-t .status-card .card-body .total-actionbox .card .card-body p {
+        font-size: 13px;
+        white-space: nowrap;
+    }
+    .fact-modal .modal-dialog .modal-content {
+        // overflow: auto;
+        // min-height: 600px;
+    }
+    .dash-t .createthoughtinner-page .action-wholebox .card {
+        height: 600px;
+        overflow: auto;
+    }
+    .dash-t .createthoughtinner-page .thought-actioncard .form-checkbox .form-check-label {
+        padding-left: 15px;
+    }
+    .dash-t .createthoughtinner-page .edit-delete-box .common-btn {
+        width: 100px !important;
+        height: 35px !important;
+    }
+}
+@media screen and (max-width: 1200px) {
+    .dash-t .status-card .card-body .total-actionbox .card .card-body p {
+        font-size: 16px;
+    }
+    .dash-t .sidebar-area .sidebar-menu li a {
+        padding: 16px 15px;
+        font-size: 14px;
+    }
+
+    .dash-t .mainsidebar-content .row .col-lg-10 {
+        width: 77%;
+    }
+    .dash-t .recentthought-page .head-btnbox .icontrol {
+        width: 294px;
+    }
+    .dash-t .subscriptionplan-page .subs-card .card-body {
+        padding: 30px 20px;
+    }
+    .dash-t .subscriptionplan-page .subscription-box {
+        display: block;
+    }
+    .dash-t .yearly-plan {
+        margin-bottom: 20px;
+    }
+    .dash-t .thought-main-box .image-content-box .thought-content {
+        width: 80%;
+    }
+    .dash-t .myaccount-page .row .col-lg-3 {
+        width: 30%;
+    }
+    .dash-t .myaccount-page .row .col-lg-9 {
+        width: 70%;
+    }
+    .dash-t .myaccount-page .profileform {
+        max-width: 100%;
+    }
+    .dash-t .myaccount-page .editprofile-box .profile-image {
+        margin-bottom: 30px;
+    }
+    .dash-t .recentthought-page .thought-pagination .card-body {
+        display: block;
+    }
+    .dash-t .recentthought-page .thought-pagination .pagination-items {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-wrap: wrap;
+        margin-top: 20px;
+    }
+    .dash-t .itemperpage-box {
+        position: absolute;
+        right: 30px;
+        top: 14px;
+    }
+    .dash-t .myaccount-page .editprofile-box .row .col-lg-4 {
+        width: 100%;
+    }
+    .dash-t .policy-content li p {
+        line-height: 26px;
+    }
+    .dash-t .policy-content li h4 {
+        line-height: 30px;
+    }
+    .dash-t .settings-page .tab-content .row .col-lg-4 {
+        width: 50%;
+    }
+    .dash-t .createthoughtinner-page .visual-box .visual-image h2 {
+        padding: 120px 0px;
+    }
+    .fact-wholebox .fact-tab {
+        padding: 15px 20px;
+    }
+    .dash-t .createthoughtinner-page .thought-actioncard .form-checkbox .form-check-label {
+        font-size: 16px;
+    }
+    .dash-t .sidebar-area {
+        width: 222px;
+    }
+
+    .dash-t .sidebarcontent-wholebox .sidebar-content {
+        .row {
+            .col-lg-7 {
+                width: 100%;
+            }
+            .col-lg-5 {
+                width: 100%;
+            }
+        }
+    }
+    .dash-t .tpartion {
+        margin: 30px 0px;
+    }
+    .dash-t .status-card .card-body .total-actionbox .card {
+        max-width: 100%;
+    }
+
+    .dash-t .header-area .search-box .formbox .icontrol {
+        width: 230px;
+        max-width: 100%;
+        min-width: auto;
+    }
+    .dash-t .header-area .page-title h2 {
+        font-size: 16px;
+    }
+    .dash-t .header-area .lang-account-box .dropdown {
+        margin-left: 8px;
+    }
+    .dash-t .sidebarcontent-wholebox .journal-contentbox .sidebar-content {
+        padding: 20px;
+    }
+    .dash-t .sidebarcontent-wholebox .sidebar-content .spartion {
+        max-height: initial;
+        overflow: auto;
+    }
+    .dash-t .createthought-page .upload-imagebox .upload-filebox {
+        width: fit-content;
+    }
+    .dash-t {
+        .subscriptionplan-page{
+            .cancel-subs-list{
+                flex-direction: column;
+                align-items: flex-start;
+                .cancel-subs{
+                    width: 100%;
+                }
+            }
+        }
+        .recentthought-page {
+            .next{
+                &.page-item {
+                    .page-link{
+                        padding-right: 0;
+                    }
+                }
+            }
+        }
+    }
+}
+@media screen and (max-width: 991px) {
+    .dash-t .mainsidebar-content .row .col-lg-2 {
+        display: none;
+    }
+    .dash-t .mainsidebar-content .row .col-lg-10 {
+        width: 100%;
+    }
+
+    .dash-t .thought-card .row {
+        flex-direction: column-reverse;
+    }
+    .dash-t .thought-card .vector-image {
+        text-align: center !important;
+        margin-bottom: 30px;
+    }
+    .dash-t .card-body {
+        padding: 40px 30px;
+    }
+    .dash-t .mainsidebar-content .side-pagecontent .thought-card .thought-cardbody .thought-box h5 {
+        margin-bottom: 22px;
+    }
+    .dash-t .header-area .lang-account-box {
+        justify-content: flex-start;
+        display: block;
+    }
+    .dash-t .header-area .lang-account-box .dropdown {
+        margin-left: 0px;
+    }
+    .dash-t .header-area .page-title {
+        padding-left: 0px;
+        display: none;
+    }
+    .header-menu.header-mobile {
+        display: block !important;
+    }
+    .dash-t .header-area .lang-account-box .dropdown .dropdown-toggle {
+        padding: 0px;
+        margin-bottom: 0px;
+    }
+    .dash-t .thought-card .vector-image img {
+        width: 100%;
+        max-width: 64%;
+        margin: 0 auto;
+    }
+    // Mobile-menu
+    .dash-t .header-mobile .sidebar-menu {
+        margin-bottom: 0px;
+    }
+    .dash-t .header-mobile .sidebar-menu li a {
+        padding: 20px 15px;
+        border-bottom: 1px solid #eee;
+        &:hover {
+            background-color: $lightred;
+        }
+    }
+
+    .dash-t .navbar-collapse {
+        position: absolute;
+        left: 0;
+        right: 0;
+        top: 0px;
+        padding: 0px 0px;
+        z-index: -1;
+        height: 100vh;
+        padding-top: 90px;
+        transform: translate(-100%, 0%);
+        transition: all 0.3s ease;
+        background-color: white;
+    }
+    .dash-t .navbar-collapse.show {
+        transform: translate(0%, 0%);
+    }
+    .dash-t .header-area .lang-account-box {
+        padding: 0px 15px;
+    }
+    .dash-t .header-mobile .sidebar-menu li a span svg {
+        margin-right: 10px;
+        width: 25px;
+        height: 25px;
+        path {
+            fill: $primary;
+        }
+    }
+    .dash-t .header-area .lang-account-box .dropdown .dropdown-menu {
+        position: absolute;
+        left: 0;
+        width: 100%;
+        box-shadow: none;
+        top: 58px;
+        border-radius: 0px;
+        padding: 0px 0px;
+        height: 0px;
+        transition: all 0.6s ease;
+        height: auto;
+    }
+    .dash-t .header-area .lang-account-box .dropdown .dropdown-menu.show {
+        height: auto;
+    }
+    .dash-t .header-area .lang-account-box .dropdown .dropdown-menu a {
+        padding: 16px 0px;
+    }
+    .dash-t .header-area .lang-account-box .dropdown .myprofile.dropdown-menu a {
+        padding: 16px 0px;
+    }
+    .dash-t .header-area .lang-account-box .dropdown {
+        padding: 16px 0px;
+    }
+    .dash-t .header-area .lang-account-box .dropdown .myprofile.dropdown-menu {
+        height: auto;
+    }
+    .dash-t .createthought-page .create-btn {
+        margin-bottom: 30px;
+    }
+    .dash-t .recentthought-page .recent-thoughtbox .thought-main-box .image-content-box .thought-content {
+        width: 70%;
+    }
+    .dash-t .createthoughtinner-page .thought-actioncard .setiing-tabs .nav-item .nav-link {
+        padding: 12px 20px;
+        margin: inherit;
+    }
+    .dash-t .createthoughtinner-page .thought-actioncard .setiing-tabs .nav-item {
+        width: 214px;
+    }
+    .dash-t .status-card .card-body .total-actionbox .row .col-12 {
+        width: 50%;
+    }
+    .dash-t .navbar-toggler {
+        border: none;
+        &:focus {
+            box-shadow: none;
+        }
+    }
+    .dash-t .recentthought-page .thought-pagination .pagination-items {
+        justify-content: center;
+    }
+    .dash-t .thought-main-box .image-content-box .thought-content p {
+        height: auto;
+    }
+    .multiple-mainqabox {
+        margin: 20px 15px 20px;
+        padding: 20px 20px;
+    }
+    .multiple-mainqabox .mul-quesbox .qag .que {
+        font-size: 16px;
+    }
+    .dash-t .createthoughtinner-page .thought-actioncard .header-box .head-btnbox .search-box .formbox .icontrol {
+        min-width: 250px;
+        width: 150px;
+    }
+
+    .dash-t .status-card .card-body .total-actionbox .card .card-body .thought-imageno-box {
+        margin-bottom: 22px;
+    }
+    .dash-t .header-area .search-box {
+        margin: 18px 0px 10px;
+    }
+    .innerpricing-page .ourvalues-area .values-whole-box .value-part {
+        width: 50%;
+    }
+    // april 26th
+    .dash-t .header-area .search-box .formbox .icontrol {
+        width: 100%;
+    }
+
+    .dash-t .sidebarcontent-wholebox .journal-contentbox {
+        display: block;
+    }
+    .dash-t .sidebarcontent-wholebox .journal-contentbox .sidebar {
+        min-width: 100%;
+        border-right: 0px;
+        min-height: auto;
+        border: 0px;
+        height: auto;
+        overflow: visible;
+    }
+    .dash-t .action-item {
+        margin-top: 30px;
+    }
+    .dash-t .sidebarcontent-wholebox .sidebar {
+        width: 0px;
+        overflow: hidden;
+    }
+    .dash-t .collapse-icon {
+        display: none;
+    }
+    .dash-t .sidebar .sidebar-menu li a {
+        padding: 20px 12px;
+        font-size: 14px;
+    }
+    // may 11
+    .account-area .createaccount-wholebox {
+        position: relative;
+        left: 0;
+        right: 0;
+        top: 0;
+        transform: translate(0%, 0%);
+    }
+    // Hamburger css
+    .navbar-toggler.collapsed .navbar-toggler-icon {
+        background-image: url("../images/menu.svg");
+    }
+    .navbar-toggler .navbar-toggler-icon {
+        background-image: url("../images/close.svg");
+    }
+    .navbar-toggler-icon {
+        filter: opacity(0.5);
+        width: 25px;
+        transition: all 0.3s ease;
+    }
+    .dash-t .spartion .thought-card .thought-cardbody .thought-box h5 {
+        margin-bottom: 20px;
+    }
+}
+
+@media screen and (max-width: 767px) {
+    .dash-t h2 {
+        font-size: 17px;
+    }
+    .dash-t .sidebar-content .header-box {
+        display: block;
+        flex-wrap: wrap;
+        padding: 20px 20px;
+    }
+    .dash-t .head-btnbox {
+        display: flex;
+        justify-content: flex-end;
+        align-items: center;
+    }
+    .recent-thoughtbox .head-btnbox {
+        margin-top: 20px;
+    }
+    .dash-t .header-box .title-text::after {
+        left: -20px;
+    }
+    .dash-t .common-btn {
+        height: 34px !important;
+        font-size: 14px !important;
+    }
+    .dash-t .card-body {
+        padding: 30px 20px;
+    }
+    .dash-t .mainsidebar-content .side-pagecontent .thought-card .thought-cardbody .thought-box h2 {
+        font-size: 20px;
+    }
+    .dash-t .thought-main-box .image-content-box {
+        display: block;
+        flex-wrap: wrap;
+    }
+    .dash-t .thought-main-box .image-content-box .thought-image {
+        padding-right: 0px;
+        width: 100%;
+        padding-bottom: 0px;
+        margin-bottom: 30px;
+    }
+
+    .dash-t .thought-main-box .image-content-box .thought-content {
+        width: 100%;
+    }
+    .dash-t .thought-main-box .image-content-box .thought-content .action-box .action-btn {
+        margin: 20px 0px;
+        padding: 9px 0px;
+    }
+    .dash-t .thought-main-box .image-content-box .thought-content .action-box {
+        display: block;
+    }
+    .dash-t .action-edit-box {
+        justify-content: space-between;
+    }
+    .dash-t .action-edit-box .edit-btn {
+        padding: 10px 0px;
+    }
+    .dash-t .recentthought-page .header-box {
+        display: block;
+    }
+    .dash-t .recentthought-page .head-btnbox {
+        display: block;
+    }
+    .dash-t .recentthought-page .head-btnbox .icontrol {
+        width: 100%;
+        margin-top: 30px;
+    }
+    .dash-t .header-box .head-btnbox .common-btn {
+        margin-left: 0px;
+        position: relative;
+        top: 0;
+        right: 0;
+    }
+    .dash-t .recentthought-page .common-btn.thought-btn {
+        position: absolute;
+        top: 26px;
+        margin-right: 20px;
+    }
+    .dash-t .header-box {
+        padding: 25px 20px;
+    }
+    .dash-t .recentthought-page .recent-thoughtbox .thought-main-box .image-content-box .thought-content {
+        width: 100%;
+    }
+
+    .dash-t .mainsidebar-content .side-pagecontent .thought-card .thought-cardbody .thought-box {
+        padding-right: 0px;
+    }
+    .dash-t .recentthought-page .thought-pagination .pagination-items {
+        justify-content: center;
+        grid-row-gap: 16px;
+    }
+    .dash-t .recentthought-page .thought-pagination .page-item .page-link::after {
+        padding: 8px 7px;
+    }
+    .dash-t .recent-thoughtbox {
+        height: auto !important;
+    }
+    .dash-t .recentthought-page .recent-thoughtbox {
+        height: auto;
+    }
+    .dash-t .sidebar-area {
+        height: auto;
+    }
+
+    .dash-t .settings-page .tab-content .row .col-lg-4 {
+        width: 100%;
+    }
+    .dash-t .myaccount-page .row .col-lg-3,
+    .dash-t .myaccount-page .row .col-lg-9 {
+        width: 100%;
+    }
+    .dash-t .header-box .head-btnbox .common-btn {
+        padding: 0px 13px !important;
+    }
+
+    .dash-t .settings-page .tab-content {
+        padding: 30px 20px;
+    }
+
+    .dash-t .policy-content li p {
+        line-height: 24px;
+        font-size: 14px;
+    }
+    .dash-t .header-box .head-btnbox .common-btn span svg {
+        width: 10px;
+        height: 10px;
+        margin-right: 6px;
+    }
+    .dash-t .common-btn {
+        // font-size: 12px !important;
+    }
+    .dash-t .myaccount-page .sidebar-menu {
+        padding: 0px 0px 30px;
+    }
+    .dash-t .settings-page .setiing-tabs .nav-item .nav-link {
+        padding: 20px 15px;
+        font-size: 14px;
+    }
+    .dash-t .settings-page .setiing-tabs .nav-item .nav-link {
+        padding: 12px 10px;
+    }
+    .dash-t .createthoughtinner-page .thought-main-box .image-content-box .thought-image {
+        width: 100%;
+        padding: 0px 0px;
+    }
+    .dash-t .createthoughtinner-page .date-card {
+        opacity: 0;
+    }
+    .dash-t .createthoughtinner-page .thought-actioncard .setiing-tabs .nav-item {
+        width: 100%;
+    }
+    .dash-t .createthoughtinner-page .thought-actioncard .setiing-tabs {
+        padding: 0px;
+    }
+    .dash-t .createthoughtinner-page .thought-actioncard .setiing-tabs .nav-item .nav-link {
+        width: 100%;
+    }
+    .dash-t .createthoughtinner-page .visual-box .progress-label {
+        position: relative;
+        left: 0;
+        padding-top: 30px;
+    }
+    .dash-t .createthoughtinner-page .visual-box .progress-label h5 {
+        width: 100%;
+    }
+    .dash-t .createthoughtinner-page .visual-box {
+        padding: 60px 20px;
+        position: relative;
+    }
+    .dash-t .createthoughtinner-page .question-cardbox li .quesc-ans-box .question-editbox .question,
+    .dash-t .createthoughtinner-page .question-cardbox li .quesc-ans-box .answer {
+        font-size: 16px;
+    }
+    .dash-t .createthoughtinner-page .action-wholebox .card .card-body {
+        padding: 40px 15px;
+    }
+    .dash-t .createthoughtinner-page .action-wholebox .card {
+        margin: 20px;
+    }
+    .dash-t .createthoughtinner-page .action-wholebox .card .card-body {
+        padding: 20px 15px;
+    }
+    .dash-t .createthoughtinner-page .thought-actioncard .checkbox-editbox {
+        display: block;
+    }
+    .dash-t .createthoughtinner-page .thought-actioncard .action-edit-box .edit-btn {
+        padding: 0px 0px;
+        border: none;
+    }
+    .dash-t .createthoughtinner-page .thought-actioncard .action-edit-box {
+        padding-top: 20px;
+    }
+    .dash-t .subscriptionplan-page .subs-card .card-title {
+        padding: 20px 20px;
+    }
+    .dash-t .recent-thoughtbox .image-content-box .thought-image img {
+        width: 100%;
+        height: auto;
+        max-height: 200px;
+        object-position: top center;
+        object-fit: contain;
+    }
+    .dash-t .recent-thoughtbox .thought-main-box .image-content-box .thought-image {
+        padding-right: 0px;
+    }
+    .dash-t .createthoughtinner-page .thought-main-box .image-content-box .thought-content p {
+        height: auto !important;
+        max-width: 100% !important;
+        width: 100% !important;
+        display: unset;
+    }
+    .dash-t .recentthought-page .thought-pagination .card-body {
+        padding: 18px 16px;
+    }
+    .dash-t .thought-main-box .image-content-box .thought-content h4 {
+        width: 100% !important;
+    }
+
+    .dash-t .recent-thoughtbox .thought-main-box .image-content-box .thought-image {
+        width: 100%;
+    }
+    .dash-t .createthoughtinner-page .image-content-box .thought-image img {
+        width: 100% !important;
+        max-height: 200px;
+        object-fit: contain;
+    }
+    .dash-t .recentthought-page .thought-pagination .card-body .showing-pages p {
+        font-size: 12px;
+    }
+    .dash-t .thought-card .vector-image img {
+        max-width: 100%;
+    }
+    .dash-t .card.congratulations {
+        width: 100%;
+    }
+    .dash-t .backdrop-card {
+        padding: 20px;
+    }
+    .dash-t .createthoughtinner-page .thought-actioncard .checkbox-editbox {
+        padding: 16px 20px;
+    }
+    .previewmodal .modal-dialog .modal-content {
+        background-color: white;
+    }
+    .welcome-modal .modal-dialog .modal-content .modal-body {
+        padding: 48px 20px;
+        height: auto;
+    }
+    .welcome-modal .modal-dialog {
+        padding: 10px;
+    }
+    .welcome-modal .modal-dialog .modal-content .modal-body .vector-image {
+        max-width: 46%;
+    }
+    .createthought-page .row {
+        flex-direction: column-reverse;
+    }
+    .dash-t .createthought-page .create-btn {
+        text-align: end;
+    }
+    .createthought-page .row .col-12 {
+        margin-bottom: 20px;
+    }
+    .dash-t .myaccount-page .myaccount-links li {
+        padding-right: 28px;
+    }
+    .dash-t .myaccount-page .sidebar-area {
+        padding-top: 20px;
+    }
+    .dash-t .myaccount-page .myaccount-links li a,
+    .dash-t .myaccount-page .myaccount-links li {
+        font-size: 14px;
+        line-height: 1;
+    }
+    .dash-t .myaccount-page .myaccount-links li::after {
+        top: 4px;
+    }
+    .dash-t .createthought-page .preview-image img {
+        height: auto;
+    }
+    // .multiple-mainqabox .mul-quesbox {
+    //   padding-left: 0px;
+    // }
+    .multiple-mainqabox .mul-quesbox .qag .que,
+    .multiple-mainqabox .mul-quesbox .qag .ans {
+        font-size: 16px;
+    }
+    .multiple-mainqabox .mul-quesbox .edit-ques .input-group .input-group-text,
+    .multiple-mainqabox .mul-quesbox .edit-ques .icontrol {
+        height: 42px;
+    }
+    .multiple-mainqabox .mul-quesbox .edit-ques .input-group .close-btn {
+        width: 65px !important;
+        padding: 0px 0px !important;
+    }
+    .multiple-mainqabox {
+        margin: 20px;
+    }
+    .multiple-mainqabox {
+        padding: 10px;
+    }
+    .account-area .createaccount-box .account-body .account-formbox .send-btn {
+        margin-top: 30px;
+    }
+    .dash-t .createthoughtinner-page .visual-box .visual-image h2 {
+        padding: 60px 0px;
+        font-size: 53px;
+    }
+    .dash-t .createthoughtinner-page .thought-actioncard .setiing-tabs {
+        flex-wrap: wrap;
+    }
+    .dash-t .createthoughtinner-page .thought-actioncard .setiing-tabs .nav-item .nav-link {
+        min-width: 154px;
+    }
+
+    .dash-t .createthoughtinner-page .thought-actioncard .header-box .head-btnbox .search-box .formbox .icontrol {
+        min-width: auto;
+        width: 175px;
+    }
+    .dash-t .header-box {
+        padding: 15px 20px;
+    }
+    .dash-t .createthoughtinner-page .thought-actioncard .header-box .head-btnbox {
+        flex-wrap: wrap-reverse;
+        display: block;
+        display: flex;
+    }
+    .search-box .formbox {
+        display: none;
+    }
+    .fact-wholebox .fact-tab .three-dots .dropdown-toggle {
+        padding: 0px 0px;
+        &::after {
+            display: none;
+        }
+    }
+    .fact-wholebox .fact-tab .title {
+        font-size: 16px;
+    }
+    .journal-contentbox {
+        flex-wrap: wrap;
+        display: block;
+    }
+    .journal-contentbox .sidebar {
+        min-width: 100%;
+        border-right: 0px;
+        border-bottom: 1px solid grey;
+        min-height: auto;
+        padding: 0px 0px;
+    }
+    .dash-t .createthoughtinner-page ul {
+        padding-left: 0px;
+    }
+    .journal-contentbox .sidebar-content .journal-box span {
+        margin: 20px 0px;
+    }
+    .dash-t .status-card .card-body .total-actionbox .card .card-body .thought-imageno-box {
+        justify-content: space-between;
+    }
+    .dash-t .header-area .search-box {
+        display: none;
+    }
+    .container {
+        padding: 0px 16px !important;
+    }
+    .innerpricing-page .ourvalues-area .values-whole-box .value-part {
+        width: 100%;
+    }
+    .dash-t .createthought-page .arrow-titlebox .head-title {
+        padding: 15px 20px;
+        width: 100%;
+    }
+    .dash-t .createthought-page .arrow-titlebox .back-arrow {
+        padding: 15px 30px;
+    }
+    .modal-dialog.modal-box .quescbtn-box .common-btn {
+        padding: 0px 8px;
+        margin-left: 12px;
+        height: 32px !important;
+    }
+    .cancel-subs {
+        display: block !important;
+        span {
+            display: block;
+            margin-bottom: 20px;
+            font-size: 15px !important;
+            line-height: 24px;
+        }
+    }
+    .dash-t .sidebarcontent-wholebox .myaccount-wholebox .sidebar {
+        margin-bottom: 20px;
+        height: auto;
+        min-height: auto;
+        max-height: fit-content;
+    }
+    .dash-t .myaccount-page .card-body {
+        padding: 30px 20px;
+    }
+    .dash-t .myaccount-page .myaccount-content {
+        min-height: auto;
+        max-height: fit-content;
+    }
+    .dash-t .myaccount-page .myaccount-links li {
+        padding-right: 9px;
+    }
+    .dash-t .itemperpage-box {
+        position: relative;
+        right: 0;
+        top: 0px;
+    }
+
+    .dash-t .status-card .card-body .total-actionbox .card .card-body .thought-imageno-box .thought-no {
+        font-size: 26px;
+    }
+    .dash-t .status-card .card-body .total-actionbox .card .card-body .thought-imageno-box {
+        margin-bottom: 10px;
+    }
+    .dash-t .status-card .card-body .total-actionbox .card .card-body p {
+        white-space: nowrap;
+        position: relative;
+        bottom: 0;
+    }
+    .dash-t .recentthought-page .image-content-box .thought-image img {
+        object-fit: contain;
+        width: 100%;
+        max-width: 100%;
+        height: 300px;
+        max-height: fit-content;
+    }
+    .dash-t .recentthought-page .common-btn.thought-btn {
+        position: absolute;
+        top: 10px;
+    }
+    .dash-t {
+        .subscriptionplan-page{
+            .cancel-subs-list{
+                margin: 0;
+                .feature-list{
+                    margin-bottom: 20px;
+                    ul{
+                        li{
+                            font-size: 16px;
+                            line-height: 30px;
+                        }
+                    }
+                }
+                .cancel-subs {
+                    span{ 
+                        line-height: 26px;
+                        margin-bottom: 10px;
+                    }
+                }
+            }
+        }
+        .thought-main-box {
+            .image-content-box {
+                .thought-content {
+                    .action-edit-box{
+                        justify-content: space-between;
+                        .edit-btn{
+                            padding: 10px 0;
+                            &:first-child{
+                                border: none;
+                            }
+                        }
+                    }
+                }
+            }
+        }
+        .recentthought-page {
+            .thought-pagination{
+                .card-body{
+                    display: flex;
+                    flex-direction: column;
+                    text-align: center;
+                }
+            }
+        }
+    }
+}
+@media screen and (max-width: 479px) {
+    .dash-t .settings-page .setiing-tabs li,
+    .dash-t .settings-page .setiing-tabs .nav-item .nav-link {
+        width: 100%;
+        text-align: center;
+    }
+    .dash-t .myaccount-page .myaccount-links li {
+        width: 33.33%;
+    }.dash-t .myaccount-page .myaccount-links li a {
+        white-space: nowrap;
+        font-size: 13px;
+        padding-right: 0px;
+    }
+    .dash-t .myaccount-page .myaccount-links li::after {
+        display: none;
+    }
+    .dash-t .recentthought-page .thought-pagination .card-body .showing-pages p {
+        font-size: 12px;
+    }
+    .dash-t .createthoughtinner-page .thought-actioncard .form-checkbox .form-check-label {
+        position: relative;
+        top: 2px;
+        padding-left: 10px;
+        font-size: 14px;
+    }
+    .dash-t .subscriptionplan-page .cancel-subs .common-btn.checkbill {
+        display: contents;
+    }
+    .dash-t .mainsidebar-content {
+        padding-bottom: 40px;
+    }
+    .dash-logo svg {
+        width: 100%;
+        max-width: 80%;
+        text-align: left;
+        justify-content: flex-start;
+    }
+
+    .dash-t .navbar.navbar-expand-lg {
+        padding: 6px 0px;
+    }
+    .dash-t .navbar-collapse {
+        padding-top: 80px;
+    }
+    .dash-t .mainsidebar-content .side-pagecontent {
+        padding: 0px 0px 0px 0px;
+    }
+    .dash-t .mainsidebar-content {
+        height: auto;
+    }
+    .dash-t .recentthought-page .head-btnbox {
+        margin-top: 35px;
+    }
+    .dash-t .createthoughtinner-page .thought-actioncard .form-checkbox .form-check-input {
+        width: 20px;
+        height: 20px;
+    }
+    .modal-dialog.modal-box .modal-content .modal-body,
+    .modal-dialog.delete-modal .modal-body {
+        padding: 20px 20px 30px;
+    }
+    .modal-dialog.modal-box .quescbtn-box .common-btn {
+        margin-left: 8px;
+        font-size: 15px;
+        padding: 10px 20px !important;
+        height: auto !important;
+    }
+    .modal-dialog.modal-box .ilabel {
+        font-size: 16px;
+    }
+    .modal-dialog.modal-box .modal-content,
+    .modal-dialog.delete-modal .modal-body {
+        height: auto;
+    }
+    .dash-t .policy-content p {
+        font-size: 14px;
+        line-height: 24px;
+    }
+    .dash-t .policy-content h2 {
+        line-height: 25px;
+        span {
+            font-size: 16px !important;
+        }
+    }
+    .dash-t .sidebar-area {
+        height: 100%;
+    }
+    .dash-t .recentthought-page .thoughtcard-body {
+        padding: 10px 20px 30px;
+    }
+    .dash-t .recentthought-page .thought-pagination .card-body .showing-pages p {
+        font-size: 9px;
+    }
+    // fix the bug solution
+    .dash-t .recentthought-page .thought-pagination .card-body .showing-pages p,
+    .dash-t .recentthought-page .thought-pagination .itemperpage-box .item-text {
+        font-size: 15px !important;
+    }
+    .dash-t .recentthought-page .thought-pagination .itemperpage-box .dropdown-toggle {
+        padding: 5px 14px;
+    }
+    .dash-t .recentthought-page .thought-pagination .itemperpage-box .item-text {
+        padding-right: 6px;
+    }
+    .dash-t .createthoughtinner-page .thought-actioncard .form-checkbox .form-check-label {
+        top: 2px;
+        word-break: break-all;
+        line-height: 22px;
+        padding-left: 5px;
+    }
+    .dash-t .createthoughtinner-page .thought-actioncard .form-checkbox .form-check {
+        justify-content: flex-start;
+        align-items: flex-start;
+        display: block;
+    }
+    .dash-t .createthoughtinner-page .thought-actioncard .actioncard {
+        margin: 20px;
+    }
+    .dash-t .card.congratulations .vector-image img {
+        width: 100%;
+        max-width: 50%;
+    }
+    .dash-t .card.congratulations {
+        height: auto;
+    }
+    .dash-t .card.congratulations .card-content {
+        position: relative;
+        top: 0;
+        margin: 30px 0px 0px;
+    }
+    .dash-t .card.congratulations .vector-gif {
+        top: 15px;
+    }
+    .dash-t .createthoughtinner-page .action-wholebox .card .card-body {
+        padding: 50px 15px;
+    }
+    .dash-t .backdrop-card {
+        padding: 100px 20px;
+    }
+    .dash-t .card.congratulations .card-content h2 {
+        font-size: 30px;
+    }
+    .card.congratulations .common-btn {
+        font-size: 16px !important;
+        padding: 10px 44px !important;
+        height: auto !important;
+    }
+    .dash-t .myaccount-page .myaccount-links li {
+        padding-right: 0px;
+        white-space: pre;
+    }
+    .dash-t .myaccount-page .myaccount-links li {
+        padding-right: 0px;
+        white-space: pre;
+        width: 100%;
+        padding: 0px 0px;
+        line-height: 32px;
+    }
+    .account-area .createaccount-box .account-content h3 {
+        font-size: 22px;
+    }
+    .modal-dialog.modal-box {
+        width: 100%;
+        position: fixed;
+        left: 0;
+        right: 0;
+        top: 40%;
+        transform: translate(0%, -50%) !important;
+        padding: 20px;
+        max-width: 100%;
+        margin: 0 auto;
+    }
+    .dash-t .createthoughtinner-page .thought-actioncard .setiing-tabs .nav-item {
+        width: 100%;
+        .nav-link {
+            width: 100%;
+        }
+    }
+    .dash-t .createthoughtinner-page .thought-actioncard .form-checkbox .form-check-label {
+        font-size: 15px;
+    }
+    .dash-t .createthoughtinner-page .visual-box .visual-image h2 {
+        font-size: 42px !important;
+        padding: 60px 0px;
+    }
+    .dash-t .header-box .head-btnbox .common-btn {
+        white-space: nowrap;
+    }
+    .dash-t .createthoughtinner-page .thought-actioncard .form-checkbox .form-check-label {
+        font-size: 15px;
+    }
+    .fact-wholebox {
+        margin: 15px;
+    }
+
+    .fact-modal .modal-dialog .modal-content .modal-body {
+        padding: 25px;
+    }
+    .dash-t .common-btn {
+        height: 35px !important;
+    }
+    .dash-t .itemperpage-box {
+        position: relative;
+        right: 0;
+        top: 0;
+    }
+    .dash-t .header-box .title-text h2 {
+        font-size: 16px !important;
+    }
+    .dash-t .spartion .thought-card .thought-cardbody .thought-box h5 {
+        margin-bottom: 12px;
+    }
+    .dash-t .status-card .card-body .total-actionbox .card .card-body p {
+        font-size: 16px;
+    }
+    .dash-t .status-card .card-body .total-actionbox .row .col-12 {
+        width: 100%;
+    }
+    .dash-t .createthought-page .upload-imagebox .upload-filebox {
+        width: fit-content;
+    }
+    .dash-t .recentthought-page .common-btn.thought-btn {
+        position: absolute;
+        top: 20px;
+    }
+    .dash-t {
+        .createthoughtinner-page {
+            .action-wholebox {
+                .card{
+                    height: auto;
+                    &.congratulations{
+                        .card-body{
+                            margin: 0;
+                            padding: 30px 15px;
+                        }
+                    }
+                }
+            }
+        }
+    }
+    .editor-prefix {
+        section{
+            padding: 0 46px;
+        }
+    }
+    .fact-yopta{
+        max-height: 270px;
+    }
+    .fact-modal {
+        .modal-dialog {
+            .modal-content {
+                .modal-body {
+                    .factbtn-box {
+                        .common-btn{
+                            margin-left: 10px;
+                        }
+                    }
+                }
+            }
+        }
+    }
+    .dash-t {
+        .subscriptionplan-page{
+            .recent-thoughtbox {
+                .thought-pagination{
+                    margin: 0px 10px 20px;
+                }
+            }
+        }
+        .recent-thoughtbox{
+            .card-body{  
+                padding: 20px 10px;
+            }
+        }
+        .recentthought-page {
+            .image-content-box{
+                .thought-image img{
+                    height: auto;
+                    max-height: 200px;
+                }
+            }
+        }
+    }
+}
+@media screen and (max-width: 375px) {
+    .dash-t .status-card .card-body .total-actionbox .row .col-12 {
+        width: 100%;
+    }
+    .dash-t .createthoughtinner-page .thought-actioncard .form-checkbox .form-check-label {
+        font-size: 17px;
+    }
+    .dash-logo svg {
+        width: 100%;
+        text-align: left;
+        justify-content: flex-start;
+    }
+    .dash-t .recentthought-page .thought-pagination .card-body {
+        padding: 18px 6px;
+    }
+}
+@media screen and (max-width: 320px) {
+}

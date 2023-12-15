@@ -1,0 +1,1136 @@
+// Media Query
+@media screen and (max-width: 1440px) {
+  h1 {
+    font-size: 50px;
+    line-height: 66px;
+  }
+  h2 {
+    font-size: 40px;
+    line-height: 56px;
+  }
+  h5 {
+    font-size: 20px;
+  }
+  .sucess-story-area .success-slider .slick-list {
+    overflow: hidden;
+    width: 100%;
+  }
+  .sucess-story-area .success-slider .slick-list .slick-track .slick-slide .success-card {
+    width: 100%;
+  }
+  .mainhome-page .herobanner-area.spacer {
+    padding: 100px 0px;
+  }
+  .mainhome-page .spacer {
+    padding: 80px 0px;
+  }
+  .ourvalues-area .values-whole-box .value-part .value-box {
+    padding: 20px 20px;
+  }
+  .sucess-story-area .success-slider .slick-list .slick-track .slick-slide .success-card {
+    height: auto;
+  }
+  .sucess-story-area .success-slider .slick-list .slick-track .slick-slide .success-card .success-cardbody {
+    padding: 80px 60px;
+  }
+  .sucess-story-area .success-slider .slick-list .slick-track .slick-slide .success-card .success-cardbody {
+    padding: 80px 60px;
+  }
+  .contactus-area .contactinfo-card {
+    max-width: 470px;
+  }
+  .inneraboutus-page .about-area {
+    padding: 80px 0px;
+  }
+  .inneraboutus-page .spacer {
+    padding: 80px 0px;
+  }
+  .innerpricing-page .spacer {
+    padding: 80px 0px;
+  }
+  .pricing-area .pricing-card .pricing-cardbody .price-listing {
+    padding: 0px 72px;
+  }
+  .innerpricing-page .ourvalues-area .values-whole-box .value-part {
+    width: 33.33%;
+  }
+  .innercontact-page .spacer {
+    padding: 80px 0px;
+  }
+  .account-area .createaccount-box .account-body .account-formbox .send-btn .common-btn {
+    width: 350px !important;
+    height: 55px;
+  }
+  .account-area .createaccount-box .account-body {
+    padding: 35px 50px;
+  }
+  .aboutusbanner-area .aboutus-title h2 {
+    font-size: 60px;
+  }
+  .sucess-story-area .success-slider .slick-dots {
+    bottom: -43px;
+  }
+  .ourworkflow-area .workflow-pills .nav-item .nav-link .workflow-tab .workflow-no {
+    transform: scale(0.8);
+  }
+  .ourworkflow-area .workflow-pills .nav-item .nav-link {
+    padding: 20px 22px;
+  }
+  .ourvalues-area .values-whole-box .value-part .value-box .value-icon {
+    transform: scale(0.8);
+  }
+}
+@media screen and (max-width: 1300px) {
+  h1 {
+    font-size: 40px;
+    line-height: 62px;
+  }
+  h2 {
+    font-size: 28px;
+    line-height: 45px;
+  }
+  h4 {
+    font-size: 28px;
+  }
+  h5 {
+    font-size: 19px;
+  }
+  p {
+    font-size: 16px;
+    line-height: 30px;
+  }
+  .ourworkflow-area .workflow-pills .nav-item .nav-link {
+    padding: 20px 20px;
+  }
+  .contactus-area .contactinfo-card {
+    max-width: 430px;
+  }
+  .mainhome-page .spacer {
+    padding: 60px 0px;
+  }
+
+  .pricing-area .pricing-card.yearly-plan {
+    height: 638px;
+  }
+  .pricing-area .pricing-card .pricing-cardbody {
+    padding: 30px 40px;
+  }
+  .sucess-story-area .success-slider .slick-list .slick-track .slick-slide .success-card .success-cardbody {
+    padding: 60px 50px;
+  }
+  .inneraboutus-page .spacer {
+    padding: 60px 0px;
+  }
+  .innercontact-page .spacer {
+    padding: 60px 0px;
+  }
+  .account-area .createaccount-box .account-body {
+    padding: 35px 30px;
+  }
+  .account-area .createaccount-box .account-body .account-formbox .send-btn .common-btn {
+    width: 326px !important;
+    height: 45px;
+  }
+
+  .innerpricing-page .aboutus-title h3 {
+    margin-bottom: 20px;
+  }
+
+  .pricing-area .pricing-card .pricing-cardbody .choose-btn .common-btn {
+    width: 300px;
+    height: 45px;
+  }
+  //10th April
+  .mainhome-page {
+    overflow-x: hidden;
+    overflow-y: hidden;
+  }
+  .container {
+    padding: 0px 60px !important;
+  }
+  .mainhome-page .herobanner-area.spacer {
+    padding: 60px 0px;
+  }
+  .herobanner-area .banner-content h1 {
+    margin-bottom: 30px;
+  }
+  // .common-btn {
+  //   width: auto !important;
+  //   height: 42px !important;
+  //   padding: 0px 20px;
+  // }
+  .about-area .read-more .common-btn {
+    width: 132px;
+    height: 39px;
+  }
+  .ourworkflow-area .workflow-pills .nav-item .nav-link {
+    padding: 10px 20px;
+  }
+  .ourworkflow-area .workflow-pills .nav-item .nav-link .workflow-tab .workflow-no {
+    transform: scale(0.7);
+  }
+  .blackcard-area {
+    padding: 0px 0px 60px !important;
+  }
+  .pricing-area .pricing-card .pricing-cardbody .price-listing {
+    padding: 0px 45px;
+  }
+  .pricing-area .pricing-card {
+    height: 540px;
+  }
+  .pricing-area .pricing-card .pricing-cardbody .price-listing li {
+    line-height: 48px;
+  }
+  .pricing-area .pricing-card .pricing-cardbody .card-price {
+    margin-bottom: 20px;
+  }
+  .pricing-area .pricing-card .pricing-cardbody .green-border {
+    border: 1.1px solid #d5d5d5;
+  }
+  .pricing-area .pricing-card .pricing-cardbody .card-price span {
+    margin-left: 10px;
+  }
+  .sucess-story-area .success-slider .slick-list .slick-track .slick-slide .success-card .success-cardbody p {
+    font-size: 20px;
+  }
+  .sucess-story-area .success-slider .slick-list .slick-track .slick-slide .success-card .success-cardbody {
+    padding: 40px 50px;
+  }
+  .contactus-area .contact-cardbody {
+    padding: 50px 30px;
+  }
+  .contactus-area .pattern-image {
+    top: 16px;
+    left: 16px;
+  }
+  .whole-footer .footer-area {
+    padding: 80px 0px 50px;
+  }
+  .whole-footer .footer-bottom {
+    padding: 20px 0px;
+  }
+  .whole-footer .footer-bottom .copy-right p,
+  .whole-footer .footer-bottom .terms-link a {
+    font-size: 16px;
+  }
+  .whole-footer .footer-area .second-part {
+    padding-left: 52px;
+  }
+  .whole-footer .footer-area .fourth-part .form-box .icontrol {
+    height: 46px;
+  }
+  .whole-footer .footer-area .fourth-part .form-box .submit-btn .common-btn {
+    width: 45px !important;
+    height: 35px !important;
+  }
+  .aboutusbanner-area {
+    padding: 70px 0px;
+  }
+  .aboutusbanner-area .aboutus-title h2 {
+    font-size: 35px;
+    margin-bottom: 10px;
+  }
+  .aboutusbanner-area .aboutus-title p {
+    width: 90%;
+  }
+  .ourvalues-area .values-whole-box .value-part .value-box .value-icon {
+    transform: initial;
+  }
+  .outcorevalue-area .value-text p {
+    font-size: 14px;
+  }
+  .ourvalues-area .values-whole-box .value-part .value-box .value-icon svg {
+    width: 55px;
+    height: auto;
+  }
+  .askquestion-area .faq-accordion .accordion-item .accordion-button {
+    padding: 20px 20px;
+    padding-right: 0px;
+    font-size: 16px;
+    line-height: 28px;
+  }
+  .account-area .createaccount-box .account-content h3 {
+    font-size: 25px;
+  }
+  .account-area .createaccount-box .account-logo {
+    padding: 12px;
+  }
+
+  // .account-area .createaccount-box {
+  //   max-height: 635px;
+  // }
+  .vector-image.text-center.mt-5 {
+    margin-top: 0px !important;
+    max-width: 65%;
+    margin: 0 auto;
+  }
+  p.mt-5.text-center {
+    margin-top: 30px !important;
+  }
+  .icontrol,
+  .eye-icon {
+    height: 40px;
+  }
+  .account-area {
+    .vector-image{
+      .img-fluid{
+        max-width: 450px;
+      }
+    }
+  }
+  // .account-area {
+  //   padding: 70px 0px;
+  // }
+}
+@media screen and (max-width: 1200px) {
+  h2 {
+    font-size: 30px;
+    line-height: 50px;
+  }
+  h3 {
+    font-size: 20px;
+    line-height: 36px;
+  }
+  h4 {
+    font-size: 30px;
+  }
+  p {
+    font-size: 17px;
+    line-height: 32px;
+  }
+  .header-area .header-whole-box .header-menu li {
+    margin-left: 25px;
+  }
+  .header-area .signupbtn-box .common-btn {
+    margin-left: 16px;
+    width: 116px;
+    height: 40px;
+    font-size: 16px;
+    padding: 0px 0px;
+  }
+
+  .header-area .header-whole-box .header-menu li a {
+    font-size: 16px;
+  }
+  .header-area .header-box {
+    padding: 16px 0px;
+  }
+  .header-area .header-whole-box .header-menu li a.active::after {
+    bottom: -24px;
+  }
+  .herobanner-area .banner-content p {
+    font-size: 17px;
+    width: 90%;
+  }
+  .ourvalues-area .values-whole-box .value-part {
+    width: 50%;
+  }
+  .ourvalues-area .para {
+    padding-left: 0px;
+    padding-right: 0px;
+  }
+  .ourvalues-area .row .col-lg-6 {
+    width: 48%;
+  }
+  .blackcard-area .card-image img {
+    height: 280px;
+  }
+  .ourvalues-area .values-whole-box .value-part {
+    padding: 14px 14px;
+  }
+  .ourvalues-area .values-whole-box {
+    margin: 50px -14px;
+  }
+  .pricing-area .pricing-card .pricing-cardbody .price-listing {
+    padding: 0px 40px;
+  }
+  .pricing-area .pricing-card .pricing-cardbody {
+    padding: 40px 22px;
+  }
+  .contactus-area .contact-cardbody {
+    padding: 40px 25px;
+    height: 547px;
+  }
+  .contactus-area .pattern-image {
+    top: 18px;
+    left: 29px;
+  }
+  .contactus-area .contactinfo-card .contactinfo-cardbody {
+    padding: 64px 35px;
+  }
+  .contactus-area .contactinfo-card {
+    max-width: 390px;
+  }
+  .contactus-area .contactinfo-card .contactinfo-cardbody h3 {
+    font-size: 25px;
+  }
+  .footer-area .row .col-lg-3 {
+    width: 33.33%;
+    padding-bottom: 30px;
+  }
+  .whole-footer .footer-area .links-title {
+    margin-bottom: 30px;
+  }
+  .whole-footer .footer-area {
+    padding: 80px 0px 20px;
+  }
+  .whole-footer .footer-area .first-part .footer-text p {
+    font-size: 16px;
+  }
+  .whole-footer .footer-area .second-part {
+    padding-left: 60px;
+  }
+  .pricing-area .pricing-card .pricing-cardbody .card-price {
+    font-size: 30px;
+    line-height: 1;
+  }
+  .pricing-area .pricing-card .pricing-cardbody .card-title {
+    font-size: 25px;
+  }
+  .pricing-area .pricing-card .pricing-cardbody .price-listing li {
+    font-size: 18px;
+    line-height: 49px;
+  }
+  .pricing-area .pricing-card {
+    width: 400px;
+    height: 600px;
+  }
+  .pricing-area .pricing-card.yearly-plan {
+    height: 580px;
+  }
+  .sucess-story-area .story-card-box {
+    margin-top: 50px;
+  }
+  .mainhome-page .contactus-area.spacer {
+    padding: 60px 0px 100px;
+  }
+  .whole-footer .footer-bottom {
+    padding: 20px 0px;
+  }
+  .whole-footer .footer-bottom .copy-right p,
+  .whole-footer .footer-bottom .terms-link a {
+    font-size: 16px;
+  }
+  .askquestion-area .faq-accordion .accordion-item .accordion-button {
+    font-size: 18px;
+    line-height: 28px;
+  }
+  .askquestion-area .faq-accordion .accordion-item .accordion-button {
+    padding: 30px 52px 30px 30px;
+  }
+  .askquestion-area .accordion-button::after {
+    right: 35px;
+    top: 36%;
+  }
+  .contactus-area .send-btn .common-btn {
+    width: 195px;
+    height: 44px;
+  }
+}
+@media screen and (max-width: 1023px) {
+  h4 {
+    font-size: 26px;
+  }
+  .herobanner-area .banner-content {
+    margin-top: 60px;
+  }
+  .herobanner-area .banner-content p {
+    width: 100%;
+    margin: 0 auto;
+  }
+  .herobanner-area .row {
+    flex-direction: column-reverse;
+    text-align: center;
+  }
+  .herobanner-area .common-btn {
+    margin-top: 40px;
+  }
+  .herobanner-area .banner-content p {
+    font-size: 19px;
+    line-height: 38px;
+  }
+
+  .about-area .about-image {
+    margin-bottom: 60px;
+  }
+  .about-area .about-content h2 br,
+  .ourvalues-area h2 br,
+  .ourfeature-area h2 br {
+    display: none;
+  }
+  .ourvalues-area .row .col-lg-6 {
+    width: 100%;
+  }
+  .ourvalues-area .contact-btn {
+    margin-top: 30px;
+  }
+  .ourvalues-area h2 {
+    margin-bottom: 10px;
+  }
+  .ourvalues-area .row,
+  .ourfeature-area .row,
+  .about-area .row {
+    text-align: center;
+  }
+  .ourfeature-area .row {
+    flex-direction: column-reverse;
+  }
+  .ourvalues-area .values-whole-box .value-part .value-box {
+    padding: 25px 25px;
+    text-align: left;
+  }
+  .pricing-area .pricing-planbox {
+    margin-top: 60px;
+  }
+  .pricing-area .pricing-card,
+  .pricing-area .pricing-card.yearly-plan {
+    height: auto;
+  }
+  .pricing-area .pricing-card.yearly-plan {
+    position: relative;
+    top: 0;
+    padding: 0px 0px;
+  }
+
+  .pricing-area .pricing-card {
+    margin: 0px auto 40px;
+  }
+  .pricing-area .pricing-card .pricing-cardbody .price-listing {
+    text-align: center;
+  }
+  .pricing-area .pricing-card .pricing-cardbody .price-listing li {
+    list-style-type: none;
+  }
+  .ourworkflow-area .workflow-tabs .workflow-image {
+    position: relative;
+    top: 0;
+    text-align: center;
+  }
+  .contactus-area .contact-whole-box {
+    margin-top: 40px;
+    position: relative;
+  }
+  .contactus-area .contact-cardbody {
+    height: auto;
+  }
+  .footer-area .row .col-lg-3 {
+    width: 50%;
+    padding-bottom: 30px;
+  }
+  .whole-footer .footer-area .second-part {
+    padding-left: 87px;
+  }
+  .sucess-story-area .success-slider .slick-list .slick-track .slick-slide .success-card .success-cardbody p {
+    font-size: 18px;
+  }
+  .sucess-story-area .success-profile img {
+    max-width: 70%;
+    margin-left: auto;
+  }
+  .contactus-area .contactinfo-card {
+    max-width: 90%;
+    margin-bottom: 60px;
+    height: auto;
+  }
+  .contactus-area .contactinfo-card .contactinfo-cardbody {
+    padding: 40px 35px 20px;
+  }
+  .askquestion-area .row {
+    text-align: center;
+  }
+  .askquestion-area .quest-title h2 br {
+    display: none;
+  }
+  .askquestion-area .faq-accordion.accordion {
+    margin-top: 50px;
+  }
+  .askquestion-area .faq-accordion .accordion-item .accordion-button {
+    line-height: 1;
+  }
+  .ourmission .about-area .row .about-image {
+    text-align: center;
+  }
+  .inneraboutus-page .spacer {
+    padding: 80px 0px 40px;
+  }
+  .innerpricing-page .spacer {
+    padding: 60px 0px;
+  }
+  .aboutusbanner-area .aboutus-title h2 {
+    margin-bottom: 15px;
+  }
+  .innercontact-page .vector-image {
+    text-align: center;
+    margin-bottom: 40px;
+  }
+  .policypage-area .policy-whole-box {
+    padding-top: 100px;
+  }
+  .policypage-area .policy-whole-box .policy-content li h4 {
+    font-size: 25px;
+    margin-bottom: 14px;
+  }
+  .policy-content p {
+    font-size: 16px;
+  }
+  // .account-area {
+  //   padding: 60px 0px 80px;
+  //   height: auto;
+  // }
+  // .account-area .vector-image {
+  //   margin-bottom: 60px;
+  // }
+  // sidebar Menu
+  .header-area .header-box {
+    display: block;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    z-index: 200;
+  }
+  .header-area .header-whole-box {
+    position: absolute;
+    left: 0;
+    top: 0;
+    background-color: white;
+    bottom: 0;
+    padding-top: 30px;
+    transition: all 0.4s ease;
+    height: 100vh;
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-start;
+    flex-direction: column;
+    text-align: left;
+    width: 100% !important;
+    max-width: 1455px !important;
+    padding: 20px 15px !important;
+    margin: 0 auto;
+    color: white;
+    right: 0;
+    z-index: 20;
+    transform: translate(-100%, 0%);
+  }
+  .header-whole-box.active {
+    transform: translate(0%, 0%);
+  }
+  .header-area .header-whole-box .header-menu {
+    align-items: flex-start;
+    flex-direction: column;
+    padding-top: 75px;
+    width: 100%;
+  }
+  .header-area .header-whole-box .header-menu li {
+    margin-left: 0px;
+    margin: 10px 0px;
+    width: 100%;
+    border-bottom: 1px solid $secondary;
+  }
+  .header-area .signupbtn-box {
+    margin-top: 10px;
+  }
+  .header-area .header-whole-box .header-menu li:last-child {
+    border: none;
+  }
+  .header-area .signupbtn-box .common-btn {
+    margin-left: 0px;
+    margin-right: 20px;
+    padding: 0px 15px;
+  }
+  .header-area .header-whole-box .header-menu li a::after {
+    display: none;
+  }
+  .header-area .toggle-wrap {
+    display: block;
+    z-index: 10;
+  }
+  .header-area .toggle-wrap {
+    display: block;
+    z-index: 10;
+    position: fixed;
+    right: 20px;
+    top: 26px;
+  }
+  .logo-menuicon {
+    z-index: 100;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+  }
+  .think-logo {
+    text-align: left;
+    text-align: -webkit-left;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+  }
+
+  .header-area .header-whole-box .header-menu {
+    margin: initial;
+  }
+  .innercontact-page .aboutusbanner-area {
+    padding: 140px 0px 40px;
+  }
+  .aboutusbanner-area .aboutus-title h2 {
+    font-size: 40px;
+  }
+  .mainhome-page .herobanner-area.spacer,
+  .aboutusbanner-area {
+    padding: 130px 0px 60px;
+  }
+  .aboutusbanner-area .aboutus-title h2 {
+    line-height: 44px;
+  }
+  .whole-footer .footer-bottom .copy-right p,
+  .whole-footer .footer-bottom .terms-link a {
+    font-size: 15px;
+  }
+  .whole-footer .footer-bottom .copy-right p,
+  .whole-footer .footer-bottom .terms-link a {
+    font-size: 15px;
+  }
+  .whole-footer .footer-bottom {
+    padding: 10px 0px;
+  }
+  .dash-t .header-area .search-box .formbox .icontrol {
+    min-width: 320px;
+  }
+  // 10th April
+  // .account-area .createaccount-box {
+  //   max-height: fit-content;
+  //   margin-top: 40px;
+  // }
+  .vector-image.text-center.mt-5 {
+    max-width: 100%;
+  }
+  .container {
+    padding: 0px 30px !important;
+  }
+  .account-area{
+    height: 100vh;
+    padding-top: 74px;
+  }
+}
+@media screen and (max-width: 991px) {
+  .notfound-page .error-image {
+    max-width: 80%;
+  }
+  .account-area {
+    align-items: flex-start;
+    height: auto;
+    .createaccount-box{
+      max-height: inherit;
+    }
+  }
+}
+@media screen and (max-width: 767px) {
+  h1 {
+    font-size: 40px;
+    line-height: 62px;
+  }
+  h2 {
+    font-size: 24px;
+    line-height: 42px;
+  }
+  h3 {
+    font-size: 17px;
+    line-height: 36px;
+  }
+  h4 {
+    font-size: 18px;
+  }
+  .herobanner-area .banner-content p {
+    font-size: 17px;
+    line-height: 35px;
+  }
+  .common-btn {
+    font-size: 16px;
+  }
+  .mainhome-page .spacer {
+    padding: 40px 0px;
+  }
+  .mainhome-page .herobanner-area.spacer,
+  .aboutusbanner-area {
+    padding: 130px 0px 60px;
+  }
+  .ourvalues-area .values-whole-box .value-part {
+    width: 100%;
+  }
+  .ourvalues-area .values-whole-box .value-part {
+    padding: 15px 0px;
+  }
+  .ourvalues-area .values-whole-box {
+    margin: 0px 0px;
+    padding-top: 40px;
+  }
+  .ourworkflow-area .work-flow-box {
+    margin-top: 40px;
+  }
+  .ourworkflow-area .workflow-pills .nav-item .nav-link .workflow-tab .workflow-no svg {
+    max-width: 50px;
+    max-height: 50px;
+  }
+  .ourfeature-area .feature-title h2 {
+    margin-bottom: 20px;
+  }
+  .ourfeature-area .feature-btn .common-btn {
+    width: 287px;
+    height: 46px;
+    padding: 0px 0px;
+  }
+
+  .contactus-area .contactinfo-card {
+    max-width: 100%;
+    margin-left: 0px;
+  }
+  .footer-area .row .col-lg-3 {
+    width: 100%;
+  }
+  .whole-footer .footer-area .second-part {
+    padding-left: 0px;
+  }
+  .whole-footer .footer-bottom .copy-right p {
+    padding-bottom: 6px;
+  }
+  .whole-footer .footer-bottom .copy-right p,
+  .whole-footer .footer-bottom .terms-link a {
+    font-size: 14px;
+  }
+  .whole-footer .footer-area .second-part ul li a,
+  .whole-footer .footer-area .third-part .link-box a {
+    font-size: 16px;
+  }
+  .contactus-area .contactinfo-card .contact-box,
+  .contactus-area .contactinfo-card .contactinfo-cardbody h3 {
+    margin-bottom: 40px;
+  }
+  .sucess-story-area .success-slider .successtitle-profile-box {
+    display: block;
+    flex-wrap: wrap;
+  }
+  .sucess-story-area .success-profile img {
+    max-width: 25%;
+  }
+  .sucess-story-area .success-slider .slick-list .slick-track .slick-slide .success-card {
+    text-align: center;
+  }
+  .sucess-story-area .success-profile img {
+    max-width: 20%;
+    margin: 0 auto;
+    padding-top: 10px;
+  }
+  .sucess-story-area .success-slider .slick-list .slick-track .slick-slide .success-card .success-cardbody {
+    padding: 50px 20px;
+  }
+  .sucess-story-area .success-slider .slick-list .slick-track .slick-slide .success-card .success-cardbody p {
+    font-size: 18px;
+  }
+  .blackcard-area .card-image img {
+    object-fit: cover;
+    height: 200px;
+  }
+  .blackcard-area .thought-btn .common-btn {
+    width: 287px;
+    height: 42px;
+    padding: 0px 0px;
+  }
+  .blackcard-area .card-content h4 {
+    margin-bottom: 30px;
+  }
+  .askquestion-area .faq-accordion .accordion-item .accordion-button {
+    line-height: 25px;
+    font-size: 14px;
+    padding: 18px 56px 18px 22px;
+  }
+  .askquestion-area .accordion-body p {
+    font-size: 14px;
+  }
+  .askquestion-area .accordion-button::after {
+    transform: scale(1.8);
+    top: 32%;
+  }
+  .inneraboutus-page .aboutusbanner-area .aboutus-title h2 {
+    margin-bottom: 16px;
+  }
+  .ourvalues-area .values-whole-box {
+    padding-top: 20px;
+  }
+  .innerpricing-page .ourvalues-area .values-whole-box .value-part {
+    width: 100%;
+  }
+  .innerpricing-page .ourvalues-area .values-whole-box .value-part .value-box {
+    display: block;
+    flex-wrap: wrap;
+  }
+  .innerpricing-page .ourvalues-area .values-whole-box .value-part .value-box .value-icon {
+    margin-bottom: 20px;
+  }
+  .innerpricing-page .ourvalues-area .values-whole-box {
+    padding-top: 40px;
+  }
+
+  .ourvalues-area .values-whole-box .value-part .value-box {
+    display: block;
+    flex-wrap: wrap;
+  }
+  .ourvalues-area .values-whole-box .value-part .value-box .value-icon {
+    margin-right: 25px;
+    margin-bottom: 20px;
+  }
+  .policypage-area .policy-whole-box .policy-content li h4 {
+    font-size: 17px;
+    margin-bottom: 10px;
+    line-height: 25px;
+  }
+  .policy-content p {
+    font-size: 14px;
+    line-height: 25px;
+  }
+  .policypage-area .policy-whole-box .policy-content li {
+    margin-bottom: 30px;
+  }
+  .policypage-area {
+    padding: 98px 0px;
+    background: linear-gradient(0deg, rgba(34, 193, 195, 0) 20%, rgb(84 189 149 / 14%) 100%);
+  }
+  // .account-area {
+  //   padding: 0px 0px 60px;
+  // }
+  .account-area .createaccount-box .account-body .account-content h3 {
+    font-size: 25px;
+  }
+  .account-area .createaccount-box .account-body .account-content p {
+    font-size: 16px;
+  }
+  .account-area .createaccount-box .account-logo {
+    padding: 12px;
+  }
+  .account-area .createaccount-box .account-body {
+    padding: 30px 20px;
+  }
+  .account-area .createaccount-box .account-body .account-formbox .send-btn .common-btn {
+    width: 100% !important;
+    height: 50px;
+    padding: 0px 0px;
+  }
+  .ourvalues-area .values-whole-box .value-part .value-box {
+    padding: 30px 20px;
+    text-align: center;
+  }
+  .ourvalues-area .values-whole-box .value-part .value-box .value-text h5,
+  .outcorevalue-area .value-text p {
+    text-align: center;
+  }
+  .ourvalues-area .values-whole-box .value-part .value-box .value-icon {
+    margin-right: 0px;
+  }
+  .herobanner-area .banner-content h1 {
+    margin-bottom: 30px;
+  }
+  .inneraboutus-page .about-area.spacer {
+    padding: 30px 0px 40px;
+  }
+  .innerpricing-page .pricing-area.spacer {
+    padding: 0px 0px 40px;
+  }
+  .pricing-area .pricing-card .pricing-cardbody {
+    padding: 40px 20px 60px;
+  }
+  .pricing-area .pricing-card .pricing-cardbody .card-price {
+    margin-bottom: 22px;
+  }
+  .pricing-area .pricing-card .pricing-cardbody .price-listing {
+    margin: 25px 0px;
+  }
+  .policypage-area {
+    padding: 130px 0px 40px;
+  }
+  .policypage-area .policy-title p {
+    font-size: 14px;
+    line-height: 25px;
+    padding: 0px 10px;
+  }
+  .header-area .header-box {
+    padding: 8px 0px;
+  }
+  .policypage-area .policy-whole-box {
+    padding-top: 60px;
+  }
+
+  .vector-image p {
+    margin-top: 10px !important;
+    padding: 0px 20px;
+  }
+  .aboutusbanner-area .aboutus-title h2 {
+    font-size: 24px;
+    line-height: 37px;
+  }
+  .innerpricing-page .aboutus-title h3 {
+    margin-bottom: 10px;
+  }
+  .header-area .signupbtn-box .common-btn {
+    height: 40px !important;
+    font-size: 14px;
+    padding: 0px 15px;
+  }
+  .aboutusbanner-area .aboutus-title p {
+    width: 95%;
+  }
+  .notfound-page .error-image {
+    max-width: 100%;
+  }
+  .account-area {
+    align-items: flex-start;
+    height: auto;
+    .createaccount-box{
+      max-height: inherit;
+    }
+    .vector-image{
+      .img-fluid{
+        max-width: initial;
+        width: 100%;
+      }
+     }
+  }
+}
+@media screen and (max-width: 479px) {
+  h1 {
+    font-size: 30px;
+    line-height: 48px;
+  }
+  h2 {
+    font-size: 20px !important;
+    line-height: 36px !important;
+  }
+  h4 {
+    font-size: 18px;
+  }
+  h5 {
+    font-size: 18px;
+  }
+  p {
+    font-size: 16px;
+  }
+  .about-area .read-more .common-btn,
+  .ourvalues-area .contact-btn .common-btn {
+    width: 162px;
+    height: 42px;
+    padding: 0px 0px;
+  }
+  .ourvalues-area .contact-btn,
+  .about-area .read-more {
+    margin-top: 20px;
+  }
+  .common-btn {
+    font-size: 15px;
+  }
+  .herobanner-area .common-btn {
+    padding: 0px 0px;
+    margin-top: 20px;
+  }
+  .aboutusbanner-area .aboutus-title h2 br {
+    display: none;
+  }
+  .aboutusbanner-area .aboutus-title p {
+    font-size: 16px;
+    width: 100%;
+    margin: 0 auto;
+  }
+  .inneraboutus-page .blackcard-area.spacer {
+    padding: 30px 0px 0px;
+  }
+  .askquestion-area .accordion-button::after {
+    right: 22px;
+    top: 34%;
+  }
+  .innerpricing-page .spacer {
+    padding: 40px 0px;
+  }
+  .aboutusbanner-area .thought-btn .common-btn {
+    width: 287px;
+    height: 45px;
+    margin-top: 29px;
+    padding: 0px 0px;
+  }
+  .innercontact-page .spacer {
+    padding: 40px 0px;
+  }
+  .innercontact-page .contactus-area.spacer {
+    padding-bottom: 80px;
+  }
+  .common-btn {
+    width: auto !important;
+    height: 40px !important;
+    padding: 0px 30px !important;
+  }
+  p {
+    font-size: 16px;
+    line-height: 30px;
+  }
+  .account-area .createaccount-box .account-body .account-content p {
+    font-size: 15px;
+  }
+  .whole-footer .footer-area .fourth-part .form-box .submit-btn .common-btn {
+    width: auto !important;
+    height: auto !important;
+    padding: 14px 16px !important;
+  }
+  .innercontact-page .outcorevalue-area .value-text h5 {
+    margin-bottom: 10px;
+  }
+  .pricing-area .pricing-card {
+    width: 100%;
+  }
+  .pricing-area .pricing-card .pricing-cardbody .price-listing {
+    padding: 0px 0px;
+  }
+  .pricing-area .pricing-card .pricing-cardbody .price-listing li {
+    font-size: 16px;
+    line-height: 50px;
+  }
+  .pricing-area .pricing-card .pricing-cardbody .price-listing {
+    margin: 40px 0px;
+  }
+  .contactus-area .contactinfo-card .contactinfo-cardbody h3 {
+    font-size: 20px;
+  }
+  .contactus-area .contactinfo-card .contact-box p a,
+  .contactus-area .contactinfo-card .contact-box p {
+    font-size: 15px;
+  }
+  .ourworkflow-area .workflow-pills .nav-item .nav-link {
+    padding: 10px 20px;
+  }
+  .whole-footer .footer-area .fourth-part .form-box .icontrol {
+    height: 50px;
+  }
+  .sucess-story-area .success-slider .slick-list .slick-track .slick-slide .success-card .success-cardbody {
+    padding: 30px 20px;
+    p {
+      font-size: 16px;
+    }
+  }
+  .pricing-area .pricing-card .pricing-cardbody .card-price span {
+    margin-left: 10px;
+  }
+  .account-area{
+    .createaccount-box{
+      .account-body {
+        .account-formbox {
+          .account-label {
+            p{
+              display: flex;
+              align-items: center;
+              justify-content: center;
+              grid-gap: 10px;
+              flex-wrap: wrap;
+            }
+          }
+        }
+      }
+    }
+  }
+}
+@media screen and (max-width: 320px) {
+}
